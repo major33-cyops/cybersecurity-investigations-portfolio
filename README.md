@@ -35,7 +35,7 @@ Investigate a suspicious IP address using threat intelligence tools.
 
 ---
 
-## 📊 Simulated Log Analysis System
+## Simulated Log Analysis System
 
 ### Objective
 Simulate SOC analyst work by detecting suspicious login behavior.
