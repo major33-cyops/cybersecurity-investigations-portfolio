@@ -94,11 +94,12 @@ Simulate SOC analyst work by detecting suspicious login behavior.
 
 ### IP Reputation Analysis
 
-(Add image here)
+![IP Analysis](images/abuseipdb.png)
+
 
 ### Log Analysis System
 
-(Add image here)
+![Log Analysis](images/log-analysis.png)
 
 ---
 
