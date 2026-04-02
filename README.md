@@ -68,8 +68,6 @@ Simulate SOC analyst work by detecting suspicious login behavior.
 
 ## 📸 Screenshots
 
-## 📸 Screenshots
-
 ### IP Reputation Analysis
 ![IP Analysis](images/abuseipdb.png)
 
