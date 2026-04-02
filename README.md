@@ -140,6 +140,11 @@ Simulate SOC analyst workflows by detecting suspicious login activity.
 
 ## Screenshots
 
+<details>
+<summary><strong>Click to Expand</strong></summary>
+
+<br>
+
 <p align="center">
   <img src="images/abuseipdb.png" width="45%" />
   <img src="images/log-analysis.png" width="45%" />
