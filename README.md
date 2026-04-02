@@ -19,12 +19,6 @@
   <a href="#-screenshots">Screenshots</a>
 </p>
 
-## Table of Contents
-- [IP Reputation Analysis](#ip-reputation-analysis)
-- [Simulated Log Analysis System](#simulated-log-analysis-system)
-- [MITRE ATT&CK Mapping](#mitre-attck-mapping)
-- [Screenshots](#screenshots)
-
 ---
 
 <details>
