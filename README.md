@@ -34,7 +34,6 @@ The objective is to demonstrate the ability to:
 
 ---
 
-## ━━━━━━━━━━━━━━━━━━━━━━━
 ## IP Reputation Analysis
 
 <details>
@@ -71,7 +70,6 @@ The IP shows strong indicators of malicious activity based on extremely high abu
 
 ---
 
-## ━━━━━━━━━━━━━━━━━━━━━━━
 ## Simulated Log Analysis System
 
 <details>
