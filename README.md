@@ -12,6 +12,13 @@
 
 ---
 
+<p align="center">
+  <a href="#-ip-reputation-analysis">IP Analysis</a> •
+  <a href="#-simulated-log-analysis-system">Log Analysis</a> •
+  <a href="#-mitre-attck-mapping">MITRE ATT&CK</a> •
+  <a href="#-screenshots">Screenshots</a>
+</p>
+
 ## Table of Contents
 - [IP Reputation Analysis](#ip-reputation-analysis)
 - [Simulated Log Analysis System](#simulated-log-analysis-system)
@@ -74,15 +81,13 @@
 </details>  
 
 ---
-
 ## MITRE ATT&CK Mapping
-
-| Behavior | Mapping |
-|--------|--------|
-| Repeated failed logins | Brute Force |
-| Admin account targeting | Privilege Abuse |
-| Suspicious login success | Credential Compromise |
-| Location anomalies | Account Compromise |
+| Behavior | Detection Focus | MITRE ATT&CK Mapping |
+|---|---|---|
+| Repeated failed logins | Password guessing activity | Brute Force |
+| Admin account targeting | High-value account abuse | Privilege Abuse |
+| Suspicious success after failures | Possible compromise | Credential Compromise |
+| Location anomalies | Unusual login behavior | Account Compromise |
 
 ---
 
