@@ -8,7 +8,7 @@ This repository showcases hands-on cybersecurity work focused on threat intellig
 
 ---
 
-## 🔎 Table of Contents
+## Table of Contents
 - [IP Reputation Analysis](#ip-reputation-analysis)
 - [Simulated Log Analysis System](#simulated-log-analysis-system)
 - [MITRE ATT&CK Mapping](#mitre-attck-mapping)
@@ -16,7 +16,7 @@ This repository showcases hands-on cybersecurity work focused on threat intellig
 
 ---
 
-## 🌐 IP Reputation Analysis
+## IP Reputation Analysis
 
 ### Objective
 Investigate a suspicious IP address using threat intelligence tools.
@@ -55,7 +55,7 @@ Simulate SOC analyst work by detecting suspicious login behavior.
 
 ---
 
-## 🧠 MITRE ATT&CK Mapping
+## MITRE ATT&CK Mapping
 
 | Behavior | Mapping |
 |--------|--------|
@@ -66,7 +66,7 @@ Simulate SOC analyst work by detecting suspicious login behavior.
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### IP Reputation Analysis
 ![IP Analysis](images/abuseipdb.png)
@@ -76,6 +76,6 @@ Simulate SOC analyst work by detecting suspicious login behavior.
 
 ---
 
-## 🏆 Key Takeaway
+## Key Takeaway
 
 Attackers rely on staying hidden. Cybersecurity professionals exist to find what others can’t see.
