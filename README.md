@@ -9,6 +9,7 @@
   <img src="https://img.shields.io/badge/Log%20Analysis-Google%20Sheets-orange" />
   <img src="https://img.shields.io/badge/SOC-Simulation-blue" />
   <img src="https://img.shields.io/badge/Framework-MITRE%20ATT%26CK-red" />
+  ![Incident Response](https://img.shields.io/badge/Project-Incident%20Response-purple)
 </p>
 
 <p align="center">
