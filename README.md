@@ -106,7 +106,6 @@ Simulate SOC analyst workflows by detecting suspicious login activity.
 **Threat Flag**
 ```excel
 =ARRAYFORMULA(IF(A2:A="", "", IF(F2:F>4,"Suspicious","Normal")))
-
 </details>
 
 ---
