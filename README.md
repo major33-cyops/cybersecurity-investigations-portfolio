@@ -86,16 +86,6 @@
 
 ---
 
-## Screenshots
-
-### IP Reputation Analysis
-![IP Analysis](images/abuseipdb.png)
-
-### Simulated Log Analysis System
-![Log Analysis](images/log-analysis.png)
-
----
-
 ## Key Takeaway
 
 Attackers rely on staying hidden. Cybersecurity professionals exist to find what others can’t see.
