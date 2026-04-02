@@ -1,10 +1,14 @@
-# Cybersecurity Investigations Portfolio
+<h1 align="center">Cybersecurity Investigations Portfolio</h1>
 
-![Threat Intel](https://img.shields.io/badge/Threat%20Intel-AbuseIPDB-green)
-![Log Analysis](https://img.shields.io/badge/Log%20Analysis-Google%20Sheets-orange)
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-red)
+<p align="center">
+  Threat Intelligence • Log Analysis • MITRE ATT&CK Mapping
+</p>
 
-This repository showcases hands-on cybersecurity work focused on threat intelligence and log analysis. These projects simulate real-world analyst workflows used in SOC (Security Operations Center) environments.
+<p align="center">
+  <img src="https://img.shields.io/badge/Threat%20Intel-AbuseIPDB-green" />
+  <img src="https://img.shields.io/badge/Log%20Analysis-Google%20Sheets-orange" />
+  <img src="https://img.shields.io/badge/Framework-MITRE%20ATT%26CK-red" />
+</p>
 
 ---
 
@@ -16,42 +20,58 @@ This repository showcases hands-on cybersecurity work focused on threat intellig
 
 ---
 
-## IP Reputation Analysis
+<details>
+  <summary><strong> IP Reputation Analysis</strong></summary>
 
-### Objective
-Investigate a suspicious IP address using threat intelligence tools.
+  <br>
 
-### Key Findings
-- IP: 185.177.72.38  
-- Confidence of Abuse: 100%  
-- Reports: 4,936  
-- Location: France  
-- Usage: Data Center / Hosting  
+  ### Objective
+  Investigate a suspicious IP address using threat intelligence tools.
 
-### Skills
-- Threat Intelligence  
-- IP Analysis  
-- Risk Assessment  
+  ### Key Findings
+  - IP: 185.177.72.38
+  - Confidence of Abuse: 100%
+  - Reports: 4,936
+  - Location: France
+  - Usage: Data Center / Hosting
+
+  ### Skills
+  - Threat Intelligence
+  - IP Analysis
+  - Risk Assessment
+
+  ### Screenshot
+  ![IP Analysis](images/abuseipdb.png)
+
+</details> 
 
 ---
 
-## Simulated Log Analysis System
+<details>
+  <summary><strong> Simulated Log Analysis System</strong></summary>
 
-### Objective
-Simulate SOC analyst work by detecting suspicious login behavior.
+  <br>
 
-### What Was Built
-- IP repetition detection  
-- Threat classification (Normal / Suspicious)  
-- Impossible travel detection  
-- High-value account alerts  
-- Risk scoring (Low / Medium / High)  
+  ### Objective
+  Simulate SOC analyst work by detecting suspicious login behavior.
 
-### Skills
-- Log Analysis  
-- Pattern Recognition  
-- Threat Detection  
-- Risk Classification  
+  ### What Was Built
+  - IP repetition detection
+  - Threat classification
+  - Impossible travel detection
+  - High-value account alerts
+  - Risk scoring
+
+  ### Skills
+  - Log Analysis
+  - Pattern Recognition
+  - Threat Detection
+  - Risk Classification
+
+  ### Screenshot
+  ![Log Analysis](images/log-analysis.png)
+
+</details>  
 
 ---
 
