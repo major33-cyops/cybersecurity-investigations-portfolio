@@ -110,7 +110,7 @@ Simulate SOC analyst workflows by detecting suspicious login activity.
 
 ---
 
-### Skills Demonstrated
+### 🛠️ Skills Demonstrated
 - Log Analysis  
 - Pattern Recognition  
 - Threat Detection  
@@ -123,7 +123,7 @@ Simulate SOC analyst workflows by detecting suspicious login activity.
 ---
 
 ## ━━━━━━━━━━━━━━━━━━━━━━━
-## MITRE ATT&CK Mapping
+## 🧠 MITRE ATT&CK Mapping
 
 | Behavior | Detection Focus | MITRE ATT&CK Mapping |
 |--------|----------------|----------------------|
@@ -136,7 +136,7 @@ Simulate SOC analyst workflows by detecting suspicious login activity.
 ---
 
 ## ━━━━━━━━━━━━━━━━━━━━━━━
-## Screenshots
+## 📸 Screenshots
 
 <p align="center">
   <img src="images/abuseipdb.png" width="45%" />
@@ -146,7 +146,7 @@ Simulate SOC analyst workflows by detecting suspicious login activity.
 ---
 
 ## ━━━━━━━━━━━━━━━━━━━━━━━
-## Key Takeaway
+## 🏆 Key Takeaway
 
 > Attackers rely on staying hidden.  
 > Cybersecurity professionals exist to find what others can’t see.
