@@ -104,13 +104,17 @@ Simulate SOC analyst workflows by detecting suspicious login activity.
 ### Detection Logic
 
 **Threat Flag**
-```excel
 =ARRAYFORMULA(IF(A2:A="", "", IF(F2:F>4,"Suspicious","Normal")))
-</details>
+
+**High Value Target**
+=ARRAYFORMULA(IF(A2:A="", "", IF(B2:B="admin","HIGH VALUE","")))
+
+**Risk Level**
+=ARRAYFORMULA(IF(A2:A="","", IF(F2:F>5,"High Risk", IF(F2:F>3,"Medium Risk","Low Risk"))))
 
 ---
 
-### 🛠️ Skills Demonstrated
+### Skills Demonstrated
 - Log Analysis  
 - Pattern Recognition  
 - Threat Detection  
@@ -122,8 +126,7 @@ Simulate SOC analyst workflows by detecting suspicious login activity.
 
 ---
 
-## ━━━━━━━━━━━━━━━━━━━━━━━
-## 🧠 MITRE ATT&CK Mapping
+## MITRE ATT&CK Mapping
 
 | Behavior | Detection Focus | MITRE ATT&CK Mapping |
 |--------|----------------|----------------------|
@@ -135,8 +138,7 @@ Simulate SOC analyst workflows by detecting suspicious login activity.
 
 ---
 
-## ━━━━━━━━━━━━━━━━━━━━━━━
-## 📸 Screenshots
+## Screenshots
 
 <p align="center">
   <img src="images/abuseipdb.png" width="45%" />
@@ -145,8 +147,7 @@ Simulate SOC analyst workflows by detecting suspicious login activity.
 
 ---
 
-## ━━━━━━━━━━━━━━━━━━━━━━━
-## 🏆 Key Takeaway
+## Key Takeaway
 
 > Attackers rely on staying hidden.  
 > Cybersecurity professionals exist to find what others can’t see.
