@@ -1,4 +1,4 @@
-<h1 align="center">Cybersecurity Investigations Portfolio</h1>
+<h1 align="center">Cybersecurity Investigations Portfolio by Sabrina Major</h1>
 
 <p align="center">
   Threat Intelligence • Log Analysis • Incident Response • MITRE ATT&CK
