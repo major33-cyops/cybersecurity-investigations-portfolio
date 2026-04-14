@@ -157,6 +157,8 @@ Simulate SOC analyst workflows by detecting suspicious login activity.
 
 [![Watch the Video](https://img.youtube.com/vi/14sSrcux18g/0.jpg)]([https://www.youtube.com/watch?v=14sSrcux18g](https://youtu.be/14sSrcux18g))
 
+(https://youtu.be/14sSrcux18g)
+
 ## Key Takeaway
 
 > Attackers rely on staying hidden.  
