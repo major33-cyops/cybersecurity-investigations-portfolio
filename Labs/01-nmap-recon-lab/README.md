@@ -88,8 +88,11 @@ This screenshot shows detailed enumeration of SMB (Server Message Block) service
 
 Notably, the output indicates that guest access is allowed and message signing is disabled. These conditions can introduce significant security risks, including unauthorized access and susceptibility to man-in-the-middle attacks.
 
+![Additional Services](screenshots/additional-services.png)
 
+This screenshot highlights additional services discovered during the scan, including VNC, X11, IRC, and Apache Tomcat. These services increase the overall attack surface of the system by providing multiple potential entry points.
 
+Services such as VNC and X11 can allow remote graphical access, while Tomcat may expose administrative interfaces. If these services are not properly secured, they can be exploited by attackers to gain unauthorized access or execute malicious actions.
 ---
 
 ## 🔍 Key Findings
