@@ -62,6 +62,14 @@ nmap -sC -sV -vv <target-ip>
 
 This screenshot shows the execution of the Nmap command used to initiate the scan against the target system. The flags `-sC` and `-sV` enable default script scanning and service version detection, which are critical for identifying potential vulnerabilities.
 
+![SSH Services](images/ssh-services.png)
+
+The Nmap scan revealed that SSH (Secure Shell) is running on port 22. SSH is commonly used for secure remote access to systems, making it a critical service to analyze during reconnaissance.
+
+The scan also identified the specific version of OpenSSH running on the target system. Version detection is important because outdated or vulnerable versions may be exploited by attackers.
+
+This step demonstrates how attackers move from simply identifying open ports to understanding what services are running and whether they present security risks.
+
 ---
 
 ## 🔍 Key Findings
