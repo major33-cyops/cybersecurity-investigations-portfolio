@@ -1,7 +1,13 @@
 # Cybersecurity Risk Assessment & Threat Prioritization
 
 ## Overview
-In this project, I conducted a cybersecurity risk assessment to identify potential threats, evaluate their impact, and prioritize them based on severity. The goal was to simulate how security teams assess risk and determine which threats require immediate attention.
+In this project, I conducted a simulated cybersecurity risk assessment to identify potential threats, evaluate their impact, and prioritize them based on severity. The goal was to simulate how security teams assess risk and determine which threats require immediate attention.
+
+---
+
+## Key Takeaway (SOC Perspective)
+
+This project demonstrates how risk assessment is used to prioritize threats based on likelihood and impact, allowing SOC teams to focus on the most critical security issues and respond effectively.
 
 ---
 
