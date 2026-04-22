@@ -1,5 +1,9 @@
 # Cybersecurity Incident Response Report
 
+Status
+🚧 In Progress / Planned
+Screenshots and full analysis report upon completion
+
 ## Incident Title
 Suspicious Login Activity and Potential Brute Force Attack
 
