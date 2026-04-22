@@ -74,6 +74,7 @@ Investigate a suspicious IP address using a threat intelligence platform.
 
 📸 Evidence:
 ![AbuseIPDB Result](images/abuseipdb.png)
+This screenshot shows the IP flagged with a 100% abuse confidence score, confirming malicious activity.
 
 ### Analysis
 The IP shows strong indicators of malicious activity based on a high number of abuse reports and infrastructure commonly associated with automated attacks such as scanning and brute force attempts.
@@ -101,6 +102,7 @@ Note: All IP addresses and log data shown in this project are part of a simulate
 
 📸 Evidence:
 ![Log Analysis Dashboard](images/log-analysis.png)
+This simulated dashboard highlights suspicious login patterns, including repeated failed attempts and high-risk activity.
 
 ### Threats Identified
 - Brute force attacks  
