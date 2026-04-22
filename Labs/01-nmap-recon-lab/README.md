@@ -93,6 +93,13 @@ Notably, the output indicates that guest access is allowed and message signing i
 This screenshot highlights additional services discovered during the scan, including VNC, X11, IRC, and Apache Tomcat. These services increase the overall attack surface of the system by providing multiple potential entry points.
 
 Services such as VNC and X11 can allow remote graphical access, while Tomcat may expose administrative interfaces. If these services are not properly secured, they can be exploited by attackers to gain unauthorized access or execute malicious actions.
+
+![Scan Summary](screenshots/scan-summary.png)
+
+This screenshot shows the final output of the Nmap scan, confirming that the target host was successfully scanned. It includes details such as the total scan time, number of packets sent and received, and confirmation that the host is active.
+
+The summary validates that the reconnaissance process was completed successfully and that all relevant data was collected for analysis. This step is important for ensuring that the scan results are accurate and complete.
+
 ---
 
 ## 🔍 Key Findings
