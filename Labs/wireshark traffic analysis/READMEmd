@@ -47,8 +47,10 @@ ICMPv6 traffic was generated using ping commands to test connectivity.
 ### Analysis:
 This traffic demonstrates normal network communication and device discovery. ICMPv6 plays a key role in connectivity testing and local network operations.
 
-📸 Screenshot:  
+📸 ICMPv6 Traffic (Ping & Network Discovery)  
 ![ICMPv6 Analysis](screenshots/icmpv6-analysis.png)
+
+This capture shows ICMPv6 traffic including echo requests and replies (ping), as well as neighbor discovery messages. This type of traffic is used to verify connectivity and allow devices to communicate on IPv6 networks.
 
 ---
 
@@ -64,8 +66,10 @@ DNS traffic was captured while browsing websites.
 ### Analysis:
 DNS is responsible for translating domain names into IP addresses. This step occurs before any web connection is established and is critical in both normal operations and threat detection.
 
-📸 Screenshot:  
+📸 DNS Traffic (Domain Name Resolution)  
 ![DNS Analysis](screenshots/dns-analysis.png)
+
+This capture shows DNS queries and responses used to resolve domain names into IP addresses. For example, requests to domains such as Mozilla services demonstrate how systems locate servers before establishing connections.
 
 ---
 
@@ -82,8 +86,10 @@ TCP traffic was analyzed to observe connection establishment.
 ### Analysis:
 This represents the TCP 3-way handshake, which is used to establish reliable communication between systems. After the handshake, TLS encryption begins, limiting visibility into packet contents.
 
-📸 Screenshot:  
+📸 TCP Handshake (Connection Establishment)  
 ![TCP Handshake](screenshots/tcp-handshake.png)
+
+This capture also shows encrypted session initiation (TLS Client Hello), indicating the transition from TCP connection establishment to secure communication.
 
 ---
 
@@ -99,8 +105,10 @@ HTTP traffic was analyzed during web browsing activity.
 ### Analysis:
 HTTP traffic reveals user activity such as page requests and server responses. While HTTPS encrypts content, metadata such as destination and response behavior remains visible.
 
-📸 Screenshot:  
+📸 HTTP Traffic (Web Requests & Responses)  
 ![HTTP Traffic](screenshots/http-traffic.png)
+
+This capture shows HTTP requests and responses between the client and web servers. It includes GET requests and server responses such as 200 OK and 404 Not Found, representing normal web browsing activity.
 
 ---
 
@@ -109,7 +117,21 @@ HTTP traffic reveals user activity such as page requests and server responses. W
 - DNS resolution is required before establishing web connections  
 - TCP handshake establishes reliable communication channels  
 - Most modern web traffic is encrypted (TLS), limiting payload visibility  
-- Background traffic (multicast, neighbor discovery) is normal in active networks  
+- Background traffic (multicast, neighbor discovery) is normal in active networks
+
+---
+
+## Additional Observations
+
+📸 Initial Traffic Capture (Unfiltered View)  
+![Initial Capture](screenshots/initial-capture-overview.png)
+
+This screenshot shows raw network traffic before filtering. Multiple protocols such as ICMPv6 and ARP are visible, demonstrating baseline network communication.
+
+📸 ARP Traffic (Local Network Discovery)  
+![ARP Analysis](screenshots/arp-analysis.png)
+
+This capture highlights ARP requests used to map IP addresses to MAC addresses within the local network. This is normal background traffic used for device discovery.
 
 ---
 
