@@ -1,5 +1,9 @@
 <h1 align="center">Cybersecurity Investigations Portfolio by Sabrina Major</h1>
 
+Status
+🚧 In Progress / Planned
+Screenshots and full analysis report upon completion
+
 <p align="center">
   Threat Intelligence • Log Analysis • Incident Response • MITRE ATT&CK
 </p>
