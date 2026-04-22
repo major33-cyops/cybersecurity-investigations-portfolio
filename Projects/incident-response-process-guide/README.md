@@ -170,3 +170,9 @@ This project helped me understand that effective security response depends on st
 
 ## Notes
 All scenarios and response steps in this project are based on a simulated environment for educational purposes.
+
+---
+
+## 🌐 Live Project View
+
+👉 [View Full Project (Live Page)](https://major33-cyops.github.io/cybersecurity-investigations-portfolio/incident-response-process-guide.html)
