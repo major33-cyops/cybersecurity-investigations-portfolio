@@ -142,4 +142,10 @@ All scenarios and examples in this project are based on a simulated environment 
 - NIST SP 800-61 Incident Response Guide  
 - CIS Critical Security Controls v8  
 - CISA Cybersecurity Best Practices  
-- SANS Security Awareness Resources  
+- SANS Security Awareness Resources
+
+---
+
+## 🌐 Live Project View
+
+👉 [View Full Project (Live Page)](https://major33-cyops.github.io/cybersecurity-investigations-portfolio/risk-assessment.html)
