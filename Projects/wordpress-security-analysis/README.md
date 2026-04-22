@@ -2,6 +2,7 @@
 
 ## Overview
 In this project, I evaluated the security posture of a WordPress environment by analyzing the effectiveness of multiple security plugins, identifying risks, and recommending improvements. The focus was on understanding how defensive tools protect against real-world threats such as brute force attacks, malware, and unauthorized access.
+NOTE: Developed as part of a cybersecurity internship (simulated environment)
 
 ---
 
