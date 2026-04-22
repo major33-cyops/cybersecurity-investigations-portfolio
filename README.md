@@ -1,11 +1,7 @@
-<h1 align="center">Cybersecurity Investigations Portfolio by Sabrina Major</h1>
-
-Status
-🚧 Active Development
-Screenshots and full analysis report upon completion
+<h1 align="center">Cybersecurity Investigations Portfolio</h1>
 
 <p align="center">
-  Threat Intelligence • Log Analysis • Incident Response • MITRE ATT&CK
+  Aspiring SOC Analyst • Threat Detection • Log Analysis • Incident Response
 </p>
 
 <p align="center">
@@ -17,39 +13,65 @@ Screenshots and full analysis report upon completion
 </p>
 
 <p align="center">
-  <a href="#-overview">Overview</a> •
-  <a href="#-ip-reputation-analysis">IP Analysis</a> •
-  <a href="#-simulated-log-analysis-system">Log Analysis</a> •
-  <a href="#-mitre-attck-mapping">MITRE ATT&CK</a> •
-  <a href="#-screenshots">Screenshots</a>
+  <a href="#-about-me">About</a> •
+  <a href="#-hands-on-labs">Labs</a> •
+  <a href="#-projects--investigations">Projects</a> •
+  <a href="#-cybersecurity-incident-response-report">Incident Report</a>
 </p>
 
 ---
 
-## Overview
+# Cybersecurity Investigations Portfolio
 
-This portfolio showcases hands-on cybersecurity work focused on threat intelligence and log analysis. These projects simulate real-world workflows used in a Security Operations Center (SOC) environment.
-
-The objective is to demonstrate the ability to:
-- Investigate suspicious indicators  
-- Analyze login behavior  
-- Detect attack patterns  
-- Classify risk levels  
-- Apply cybersecurity frameworks  
+## 👤 About Me
+Aspiring SOC Analyst focused on threat detection, log analysis, and incident response through hands-on cybersecurity labs and real-world investigation scenarios.
 
 ---
 
-## IP Reputation Analysis
+## 🎯 Core Focus Areas
+Threat Intelligence • Log Analysis • Incident Response • MITRE ATT&CK
 
-<details>
-<summary><strong>Click to Expand</strong></summary>
+---
 
-<br>
+## 🧠 Skills
+- Log Analysis
+- Threat Detection
+- Incident Response
+- Network Traffic Analysis (In Progress)
+- Linux Security Fundamentals
+- Risk Assessment
+- MITRE ATT&CK Mapping
+
+---
+
+## 🛠️ Tools
+- Linux CLI
+- DVWA (Damn Vulnerable Web App)
+- Metasploit
+- Threat Intelligence Platforms
+- Wireshark (In Progress)
+- AWS Monitoring (In Progress)
+
+---
+
+## 📂 Hands-On Labs
+
+- Web Exploitation (DVWA)
+- Linux Permissions & Access Control
+- Linux Log Analysis (Planned)
+- Packet Analysis – Wireshark (Planned)
+- AWS Monitoring & Alerts (Planned)
+
+---
+
+# 🔍 Projects & Investigations
+
+---
+
+## 🌐 IP Reputation Analysis (Threat Intelligence)
 
 ### Objective
 Investigate a suspicious IP address using a threat intelligence platform.
-
----
 
 ### Key Findings
 - IP Address: 185.177.72.38  
@@ -58,12 +80,8 @@ Investigate a suspicious IP address using a threat intelligence platform.
 - Location: France  
 - Usage Type: Data Center / Hosting  
 
----
-
 ### Analysis
-The IP shows strong indicators of malicious activity based on extremely high abuse reports and hosting infrastructure commonly used in automated attacks such as scanning and brute force attempts.
-
----
+The IP shows strong indicators of malicious activity based on a high number of abuse reports and infrastructure commonly associated with automated attacks such as scanning and brute force attempts.
 
 ### Skills Demonstrated
 - Threat Intelligence Analysis  
@@ -71,31 +89,19 @@ The IP shows strong indicators of malicious activity based on extremely high abu
 - Risk Assessment  
 - Cybersecurity Documentation  
 
-</details>
-
 ---
 
-## SOC Log Analysis & Threat Detection Lab
-
-<details>
-<summary><strong>Click to Expand</strong></summary>
-
-<br>
+## 🧪 SOC Log Analysis & Threat Detection Lab
 
 ### Objective
 Simulate SOC analyst workflows by detecting suspicious login activity.
 
----
-
 ### Detection Logic Implemented
-- IP repetition detection using COUNTIF  
+- IP repetition detection  
 - Threat classification (Normal / Suspicious)  
 - Impossible travel detection  
 - High-value account monitoring  
 - Risk scoring (Low / Medium / High)  
-- Conditional formatting for visual alerting  
-
----
 
 ### Threats Identified
 - Brute force attacks  
@@ -104,20 +110,9 @@ Simulate SOC analyst workflows by detecting suspicious login activity.
 - Privileged account targeting  
 - Geographic anomalies  
 
----
-
-### Detection Logic
-
-**Threat Flag**
-=ARRAYFORMULA(IF(A2:A="", "", IF(F2:F>4,"Suspicious","Normal")))
-
-**High Value Target**
-=ARRAYFORMULA(IF(A2:A="", "", IF(B2:B="admin","HIGH VALUE","")))
-
-**Risk Level**
-=ARRAYFORMULA(IF(A2:A="","", IF(F2:F>5,"High Risk", IF(F2:F>3,"Medium Risk","Low Risk"))))
-
----
+### Example Detection Logic
+Threat Flag → Suspicious if repeated login attempts exceed threshold
+Risk Level → Low / Medium / High based on behavior
 
 ### Skills Demonstrated
 - Log Analysis  
@@ -127,43 +122,83 @@ Simulate SOC analyst workflows by detecting suspicious login activity.
 - SOC-style Alert Triage  
 - Behavioral Analysis  
 
-</details>
+### MITRE ATT&CK Mapping
 
----
-
-## MITRE ATT&CK Mapping
-
-| Behavior | Detection Focus | MITRE ATT&CK Mapping |
-|--------|----------------|----------------------|
-| Repeated failed logins | Password guessing activity | Brute Force |
-| Admin account targeting | Privileged account abuse | Privilege Abuse |
+| Behavior | Detection Focus | MITRE Mapping |
+|----------|---------------|--------------|
+| Failed logins | Password guessing | Brute Force |
+| Admin targeting | Privilege abuse | Privilege Abuse |
 | Success after failures | Credential compromise | Initial Access |
 | Location anomalies | Suspicious login behavior | Account Compromise |
 | Repeated IP activity | Automated attack patterns | Reconnaissance |
 
 ---
 
-## Screenshots
+## 🚨 Cybersecurity Incident Response Report
 
-<details>
-<summary><strong>Click to Expand</strong></summary>
+📄 Full Report:  
+[View Incident Response Report](Projects/incident-response-brute-force-analysis.md)
 
-<br>
+### Incident Title
+Suspicious Login Activity and Potential Brute Force Attack
 
-<p align="center">
-  <img src="images/abuseipdb.png" width="45%" />
-  <img src="images/log-analysis.png" width="45%" />
-</p>
+### Summary
+A pattern of repeated failed login attempts followed by successful access from multiple international IP addresses indicated a likely brute force attack targeting both standard users and privileged accounts.
+
+---
+
+### Indicators of Compromise (IOCs)
+- IP: 45.23.11.9 (Russia)  
+- IP: 88.21.44.2 (China)  
+- Multiple failed login attempts  
+- Successful login after repeated failures  
+- Admin account targeted  
+- Suspicious geographic locations  
+
+---
+
+### Analysis
+The behavior observed is consistent with brute force attack techniques:
+
+- High volume of failed authentication attempts  
+- Automated login attempts from repeated IP addresses  
+- Successful authentication after multiple failures  
+- Targeting of high-value accounts  
+
+---
+
+### Impact Assessment
+- Potential unauthorized access to user accounts  
+- Elevated risk due to admin account involvement  
+- Possible exposure of sensitive system data  
+
+---
+
+### Mitigation Recommendations
+- Block or blacklist malicious IP addresses  
+- Enforce strong password policies  
+- Enable Multi-Factor Authentication (MFA)  
+- Monitor login behavior for anomalies  
+- Implement account lockout policies  
+
+---
+
+### Skills Demonstrated
+- Incident Analysis  
+- Threat Detection  
+- Log Analysis  
+- Risk Assessment  
+- SOC Workflow Understanding  
 
 ---
 
 ## 🎥 Project Presentation
 
-[![Watch the Video](https://img.youtube.com/vi/14sSrcux18g/0.jpg)]([https://www.youtube.com/watch?v=14sSrcux18g](https://youtu.be/14sSrcux18g))
+Watch the Incident Response & Cybersecurity Analysis Presentation:
 
-Watch here (https://youtu.be/14sSrcux18g)
+👉 https://youtu.be/14sSrcux18g
 
-## Key Takeaway
+---
 
-> Attackers rely on staying hidden.  
-> Cybersecurity professionals exist to find what others can’t see.
+## 🧠 Key Takeaway
+Effective cybersecurity relies on identifying patterns in system activity, correlating multiple indicators of compromise, and responding quickly to prevent escalation of threats.
