@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Incident Response Process Guide</title>
+
 <style>
 :root{
   --bg:#0f172a;
@@ -10,7 +17,7 @@
 
 body{
   margin:0;
-  font-family: 'Segoe UI', Arial, sans-serif;
+  font-family:'Segoe UI', Arial, sans-serif;
   background:var(--bg);
   color:var(--text);
   line-height:1.6;
@@ -22,6 +29,10 @@ body{
   padding:60px 24px;
   text-align:center;
   border-bottom:4px solid var(--gold);
+}
+
+.hero p{
+  color:#d1d5db;
 }
 
 .container{
@@ -77,3 +88,101 @@ li{
   transition:0.2s ease;
 }
 </style>
+</head>
+
+<body>
+
+<header class="hero">
+  <h1>Incident Response Process Guide</h1>
+  <p>SOC-Oriented Incident Handling, Classification, and Response Framework</p>
+</header>
+
+<main class="container">
+
+<section class="section">
+<h2>Overview</h2>
+<p>
+This project outlines a structured incident response process for detecting, analyzing, and responding to cybersecurity incidents. It demonstrates how security teams handle suspicious activity using clear procedures and prioritization.
+</p>
+<div class="note">
+<strong>Note:</strong> Developed in a simulated environment as part of a cybersecurity internship.
+</div>
+</section>
+
+<section class="section">
+<h2>Objective</h2>
+<ul>
+<li>Understand incident response lifecycle</li>
+<li>Classify incidents by severity</li>
+<li>Develop response procedures</li>
+<li>Create reporting and documentation standards</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>Incident Classification</h2>
+<ul>
+<li><strong>L1:</strong> Critical breach (ransomware, major compromise)</li>
+<li><strong>L2:</strong> Malware or suspicious login activity</li>
+<li><strong>L3:</strong> Suspicious email or unusual behavior</li>
+<li><strong>L4:</strong> Minor or informational event</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>Incident Response Lifecycle</h2>
+<ul>
+<li>Preparation</li>
+<li>Identification</li>
+<li>Containment</li>
+<li>Eradication</li>
+<li>Recovery</li>
+<li>Lessons Learned</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>Example Scenario</h2>
+<p>
+Repeated failed login attempts followed by a successful login indicate a potential brute force attack.
+</p>
+<ul>
+<li>Investigate login activity</li>
+<li>Identify source and timing</li>
+<li>Disable account if necessary</li>
+<li>Reset credentials</li>
+<li>Document findings</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>SOC Analyst Relevance</h2>
+<ul>
+<li>Incident triage and prioritization</li>
+<li>Alert investigation and validation</li>
+<li>Containment and mitigation support</li>
+<li>Documentation and escalation</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>Skills Demonstrated</h2>
+<ul>
+<li>Incident response planning</li>
+<li>Threat detection</li>
+<li>Security operations workflow</li>
+<li>Documentation and reporting</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>What I Learned</h2>
+<p>
+This project reinforced the importance of having a structured response process. Clear procedures, proper classification, and documentation are critical for effectively handling security incidents and minimizing impact.
+</p>
+</section>
+
+</main>
+
+</body>
+</html>
