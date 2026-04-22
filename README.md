@@ -1,7 +1,7 @@
 <h1 align="center">Cybersecurity Investigations Portfolio by Sabrina Major</h1>
 
 Status
-🚧 In Progress / Planned
+🚧 Active Development
 Screenshots and full analysis report upon completion
 
 <p align="center">
@@ -75,7 +75,7 @@ The IP shows strong indicators of malicious activity based on extremely high abu
 
 ---
 
-## Simulated Log Analysis System
+## SOC Log Analysis & Threat Detection Lab
 
 <details>
 <summary><strong>Click to Expand</strong></summary>
@@ -87,7 +87,7 @@ Simulate SOC analyst workflows by detecting suspicious login activity.
 
 ---
 
-### What Was Built
+### Detection Logic Implemented
 - IP repetition detection using COUNTIF  
 - Threat classification (Normal / Suspicious)  
 - Impossible travel detection  
