@@ -1,4 +1,4 @@
-## Wordpress Security Analysis
-Click the link below to view the full interactive report:
-[View Report](https://darling-kangaroo-af9115.netlify.app)
+## 📊 Full Project View
+
+👉 https://htmlpreview.github.io/?https://github.com/YOUR-USERNAME/YOUR-REPO/blob/main/projects/wordpress-security-analysis/wordpress-security-analysis.html
 
