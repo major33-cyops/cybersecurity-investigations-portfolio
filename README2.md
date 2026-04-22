@@ -70,7 +70,10 @@ Investigate a suspicious IP address using a threat intelligence platform.
 - Confidence of Abuse: 100%  
 - Reports: 4,936  
 - Location: France  
-- Usage Type: Data Center / Hosting  
+- Usage Type: Data Center / Hosting
+
+📸 Evidence:
+![AbuseIPDB Result](images/abuseipdb.png)
 
 ### Analysis
 The IP shows strong indicators of malicious activity based on a high number of abuse reports and infrastructure commonly associated with automated attacks such as scanning and brute force attempts.
@@ -94,7 +97,10 @@ Note: All IP addresses and log data shown in this project are part of a simulate
 - Threat classification (Normal / Suspicious)  
 - Impossible travel detection  
 - High-value account monitoring  
-- Risk scoring (Low / Medium / High)  
+- Risk scoring (Low / Medium / High)
+
+📸 Evidence:
+![Log Analysis Dashboard](images/log-analysis.png)
 
 ### Threats Identified
 - Brute force attacks  
