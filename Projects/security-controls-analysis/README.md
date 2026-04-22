@@ -112,18 +112,38 @@ SOC analysts must:
 
 ## Screenshots
 
+### Firewall Execution (Normal Behavior)
+![Firewall Execution](screenshots/firewall-execution.png)
+
+This demonstrates the firewall running and processing normal user input. It establishes baseline behavior where valid prompts are accepted and passed through the system.
+
+---
+
 ### Firewall Blocking Suspicious Input
 ![Firewall Block](screenshots/firewall-block.png)
+
+This demonstrates the firewall detecting and blocking malicious or unsafe input. Prompts containing restricted keywords or exceeding length limits are immediately rejected, preventing potential misuse.
+
+---
 
 ### Firewall Detection Logic (Code)
 ![Firewall Code](screenshots/firewall-code.png)
 
-### Firewall Running in Ubuntu Environment
-![Ubuntu Firewall](screenshots/ubuntu-firewall-run.png)
+This shows the implementation of the firewall logic, including keyword filtering, input validation, logging, and alert conditions used to detect suspicious activity.
+
+---
 
 ### Log Output and Alert Detection
 ![Log Output](screenshots/log-analysis-output.png)
 
+This shows the system logging both allowed and blocked input. It provides visibility into user behavior and demonstrates how repeated suspicious activity can be tracked and investigated.
+
+---
+
+### Firewall Running in Ubuntu Environment
+![Ubuntu Firewall](screenshots/ubuntu-firewall-run.png)
+
+This demonstrates the firewall running inside a Linux (Ubuntu) virtual machine, simulating a real-world deployment environment where security controls operate on a live system.
 ---
 
 ## What I Learned
