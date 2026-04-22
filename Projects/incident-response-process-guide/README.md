@@ -1,170 +1,207 @@
 # Incident Response Process Guide
 
 ## Overview
-In this project, I developed an incident response process guide that explains how to identify, classify, contain, document, and recover from cybersecurity incidents. The goal was to create a practical framework that reflects how security teams handle suspicious activity and confirmed incidents in a structured way.
+In this project, I developed a structured incident response process that explains how to identify, classify, contain, document, and recover from cybersecurity incidents. The goal was to create a practical and repeatable framework that reflects how security teams handle suspicious activity in a real-world SOC environment.
 
 **Note:** Developed as part of a cybersecurity internship using a simulated environment.
 
 ---
 
 ## Objective
-- Understand the purpose of an incident response plan
-- Classify incidents by severity
-- Document a step-by-step response process
-- Create practical reporting and checklist guidance
-- Connect incident handling to SOC workflows
+- Understand the incident response lifecycle  
+- Classify incidents based on severity  
+- Build a clear and repeatable response workflow  
+- Practice documentation and structured thinking  
+- Connect incident handling to SOC processes  
+
+---
+
+## Framework Reference
+This project is based on industry-standard incident response frameworks:
+
+- NIST Incident Response Lifecycle (SP 800-61)
+
+Phases:
+1. Preparation  
+2. Identification  
+3. Containment  
+4. Eradication  
+5. Recovery  
+6. Lessons Learned  
 
 ---
 
 ## Environment
-- Simulated incident management environment
+- Simulated incident management environment  
 - Focus areas:
-  - Security incident classification
-  - Response procedure
-  - Containment and recovery
-  - Documentation and escalation
+  - Security incident classification  
+  - Response procedures  
+  - Containment and recovery  
+  - Documentation and escalation  
 
 ---
 
 ## Methodology
-- Reviewed incident response concepts and response phases
-- Defined severity levels for different types of incidents
-- Built a step-by-step response procedure
-- Created an operational checklist
-- Designed a report template for documenting incidents
+- Reviewed incident response concepts and lifecycle phases  
+- Defined severity levels for different incident types  
+- Built a structured response workflow  
+- Created an incident checklist  
+- Designed a reporting structure for documentation  
 
 ---
 
 ## Scope
 This guide applies to:
-- Websites and staging environments
-- Email and communication systems
-- Internal records and digital files
-- Social media and online platforms
-- Approved devices used for work-related access
+- Websites and staging environments  
+- Email and communication systems  
+- Internal records and digital files  
+- Social media platforms  
+- Approved work devices  
 
 ---
 
 ## Roles and Responsibilities
 
-### Staff, Volunteers, and Interns
-- Report suspicious activity immediately
-- Avoid further interaction with the threat
-- Preserve useful evidence such as screenshots or emails
+### Staff / Users
+- Report suspicious activity immediately  
+- Avoid interacting with potential threats  
+- Preserve evidence (screenshots, emails, logs)  
 
-### Technical Lead / IT Support
-- Investigate and contain incidents
-- Guide recovery efforts
-- Document findings and actions taken
+### Technical / Security Team
+- Investigate and validate incidents  
+- Contain and remove threats  
+- Document findings and actions  
 
 ### Leadership
-- Support response decisions
-- Approve major actions
-- Review lessons learned after incidents
+- Approve major response decisions  
+- Support escalation and recovery  
+- Review lessons learned  
 
 ---
 
 ## Incident Classification
 
-| Level | Description | Response Priority |
-|------|-------------|------------------|
-| L1 | Critical breach, ransomware, major compromise | Immediate |
-| L2 | Malware alert, suspicious login, phishing link clicked | As soon as possible |
-| L3 | Suspicious email, unusual system behavior | Within normal work period |
-| L4 | Spam, minor concern, informational issue | Monitor and document |
+| Level | Description | Priority |
+|------|-------------|----------|
+| L1 | Critical breach / ransomware | Immediate |
+| L2 | Malware / suspicious login / phishing click | High |
+| L3 | Suspicious email / unusual activity | Medium |
+| L4 | Minor / informational issue | Low |
 
 ---
 
-## Incident Response Procedure
+## Incident Response Lifecycle
 
 ### 1. Preparation
-Keep systems updated, enable security tools, use strong passwords, and maintain backups.
+- Define roles and responsibilities  
+- Maintain monitoring tools and logs  
+- Enforce security policies  
+- Ensure backups are available  
 
 ### 2. Identification
-Recognize suspicious activity such as alerts, phishing, malware warnings, or unusual login events.
+- Detect alerts, suspicious behavior, or reports  
+- Determine if an event is a security incident  
+- Analyze logs and indicators  
 
 ### 3. Containment
-Limit spread by isolating systems, disabling accounts, or blocking suspicious access.
+- Isolate affected systems  
+- Disable compromised accounts  
+- Block malicious IPs or access  
 
 ### 4. Eradication
-Remove the threat by deleting malware, fixing vulnerabilities, or resetting compromised credentials.
+- Remove malware or unauthorized access  
+- Fix vulnerabilities  
+- Reset credentials  
 
 ### 5. Recovery
-Restore normal operations and continue monitoring for recurring issues.
+- Restore systems to normal operation  
+- Monitor for recurring activity  
+- Validate system integrity  
 
 ### 6. Lessons Learned
-Review the incident, document outcomes, and improve response processes.
+- Document the incident  
+- Identify gaps in response  
+- Improve detection and prevention  
 
 ---
 
-## Example Response Scenario
-A suspicious login is detected after repeated failed authentication attempts.
+## Example Incident Scenario
+**Scenario:** Suspicious login detected after multiple failed attempts.
 
 Response actions:
-- Investigate the login activity
-- Review source and timing
-- Temporarily disable the account if needed
-- Reset credentials
-- Verify no unauthorized changes were made
-- Document the incident and follow-up actions
+1. Alert triggered from monitoring system  
+2. Analyst reviews login details  
+3. Identifies unusual location or behavior  
+4. Temporarily disables the account  
+5. Investigates logs for additional activity  
+6. Resets credentials  
+7. Restores access and monitors activity  
+8. Documents the incident and outcome  
 
 ---
 
 ## Incident Checklist
-- Identify what happened
-- Document time and details
-- Report to the correct person
-- Contain the threat
-- Preserve evidence
-- Remove the threat
-- Restore systems safely
-- Review and improve controls
+- Identify what happened  
+- Record time and details  
+- Report to appropriate contact  
+- Contain the threat  
+- Preserve evidence  
+- Remove the threat  
+- Restore systems  
+- Review and improve  
 
 ---
 
 ## Report Template Elements
 A complete incident report should include:
-- Date and time discovered
-- Reporter
-- Type of incident
-- Systems affected
-- Description of activity
-- Immediate actions taken
-- Follow-up needed
+- Date and time discovered  
+- Reporter  
+- Type of incident  
+- Systems affected  
+- Description of activity  
+- Actions taken  
+- Follow-up actions  
 
 ---
 
 ## SOC Analyst Relevance
-Incident response is a core SOC responsibility.
+Incident response is a core responsibility in a Security Operations Center (SOC).
 
 SOC analysts must:
-- Detect and validate suspicious activity
-- Prioritize incidents by severity
-- Escalate when appropriate
-- Support containment and documentation
-- Help improve future response processes
+- Detect and validate suspicious activity  
+- Prioritize incidents based on severity  
+- Escalate when necessary  
+- Support containment and recovery  
+- Document findings and improve processes  
 
 ### Example SOC Impact
-- Suspicious login → possible account compromise
-- Malware alert → possible containment event
-- Phishing click → possible credential or endpoint risk
+- Suspicious login → possible account compromise  
+- Malware alert → containment and remediation  
+- Phishing click → credential exposure risk  
 
-Understanding incident handling improves analyst judgment, triage quality, and response consistency.
+Understanding incident response improves decision-making, triage accuracy, and overall security effectiveness.
 
 ---
 
 ## Skills Demonstrated
-- Incident response planning
-- Severity classification
-- Security operations workflow
-- Documentation
-- Escalation awareness
-- Risk-based decision making
+- Incident response planning  
+- Threat detection and validation  
+- Security operations workflow  
+- Documentation and reporting  
+- Risk-based decision making  
 
 ---
 
 ## What I Learned
-This project helped me understand that effective security response depends on structure, communication, and documentation. A clear process helps reduce confusion during incidents and improves the ability to recover safely.
+This project reinforced that effective incident response depends on structure, communication, and documentation. A clear and repeatable process reduces confusion, improves response speed, and minimizes the impact of security incidents.
+
+---
+
+## Screenshots
+(Add later)
+- Workflow diagram  
+- Checklist  
+- Notes or documentation examples  
 
 ---
 
