@@ -1,4 +1,7 @@
-## 📊 Full Project View
+---
 
-👉 https://htmlpreview.github.io/?https://github.com/major33-cyops/cybersecurity-investigations-portfolio/blob/main/projects/wordpress-security-analysis/wordpress-security-analysis.html
+## 📊 Full Project View (Interactive HTML)
 
+For a more detailed and visually formatted version of this project:
+
+👉 [View HTML Version](wordpress-security-analysis.html)
