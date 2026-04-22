@@ -54,13 +54,21 @@ Some projects in this portfolio were developed during a cybersecurity internship
 - Metasploit  
 - Threat Intelligence Platforms  
 - Wireshark (In Progress)  
-- AWS Monitoring (In Progress)  
+- AWS Monitoring (In Progress)
 
 ---
 
-## 📂 Hands-On Labs
-- Web Exploitation (DVWA)  
-- Linux Permissions & Access Control  
-- Linux Log Analysis (Planned)  
-- Packet Analysis – Wireshark (Planned)  
-- AWS Monitoring & Alerts (Planned)  
+# 🔍 Featured Projects
+
+## 🧠 SOC-Focused Investigations
+
+- 🔎 [IP Reputation Analysis](Projects/wordfence-alert-investigation/)
+- 📊 [SOC Log Analysis & Threat Detection](Projects/log-analysis-lab/) 
+- 🚨 [Incident Response Report](Projects/incident-response-brute-force-analysis.md)
+- 🛡️ [Security Controls Analysis](Projects/security-controls-analysis/)
+- 🎣 [Phishing Threat Analysis](Projects/phishing-threat-analysis/)
+- ⚖️ [Risk Assessment & Threat Prioritization](Projects/risk-assessment/)
+
+---
+
+👉 Explore the full portfolio in the **Projects** folder above.
