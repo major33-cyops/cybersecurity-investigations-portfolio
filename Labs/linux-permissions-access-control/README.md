@@ -19,50 +19,53 @@ In this lab, I worked with Linux user accounts, groups, and file permissions to 
 I created two users (`jenny` and `joe`) and added them to a group called `HR`.
 
 📸 Evidence:
-![User Creation](screenshots/user-creation.png)
+![User Creation](screenshots/linux-permissions-user-creation.png)
 
 ---
 
 ### 2. Verifying Account Information
-I reviewed system files to confirm user and group configuration:
+I confirmed user and group configuration using system files and commands:
 - `/etc/passwd`
 - `/etc/group`
 - `/etc/shadow`
+- `groups`
 
 📸 Evidence:
-![Account Verification](screenshots/account-verification.png)
+![Group Verification](screenshots/linux-permissions-group-verification.png)  
+![User Group Membership](screenshots/linux-permissions-user-group-membership.png)  
+![Passwd Verification](screenshots/linux-permissions-passwd-verification.png)
 
 ---
 
-### 3. Testing Directory Access
-I tested access between users by attempting to enter another user’s home directory.
+### 3. Testing Directory Access (Before Restriction)
+I tested access between users by attempting to view and navigate directories before applying restrictions.
 
 📸 Evidence:
-![Directory Access Test](screenshots/access-test-before.png)
+![Directory Access Test](screenshots/linux-permissions-directory-access-test.png)
 
 ---
 
 ### 4. Restricting Permissions
-I removed execute permissions using `chmod` to prevent unauthorized access.
+I removed execute permission for others using `chmod` to prevent unauthorized directory access.
 
 📸 Evidence:
-![Permission Change](screenshots/permission-change.png)
+![Permission Change](screenshots/linux-permissions-access-restriction-chmod.png)
 
 ---
 
-### 5. Validating Access Control
-After modifying permissions, I tested access again to confirm restrictions were enforced.
+### 5. Numeric Permissions (chmod 705)
+I applied numeric permissions to control access levels and tested allowed actions.
 
 📸 Evidence:
-![Access Denied](screenshots/access-denied.png)
+![Numeric Permissions](screenshots/linux-permissions-numeric-permissions-test.png)
 
 ---
 
-### 6. Numeric Permissions (chmod 705)
-I applied numeric permissions and tested what actions were allowed for other users.
+### 6. Validating Access Control (Access Denied)
+I verified that unauthorized users could no longer perform restricted actions.
 
 📸 Evidence:
-![Numeric Permissions](screenshots/numeric-permissions.png)
+![Access Denied](screenshots/linux-permissions-access-denied-validation.png)
 
 ---
 
@@ -73,7 +76,11 @@ I applied numeric permissions and tested what actions were allowed for other use
 - Access validation testing
 
 ## SOC Analyst Relevance
-This lab reflects real-world security practices where analysts verify access controls, investigate permission issues, and ensure that users only have the access they need.
+This lab reflects real-world security practices where analysts:
+- Verify access controls
+- Investigate permission issues
+- Ensure least privilege is enforced
+- Validate security configurations
 
 ## What I Learned
-This lab helped me understand how Linux enforces access control and how permissions directly impact system security. I practiced verifying access between users and applying changes to restrict unauthorized activity. 
+This lab helped me understand how Linux enforces access control and how permissions directly impact system security. I practiced verifying access between users and applying changes to restrict unauthorized activity.
