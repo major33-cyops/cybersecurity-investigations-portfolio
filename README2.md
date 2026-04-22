@@ -2,6 +2,15 @@
 
 Aspiring SOC Analyst • Threat Detection • Log Analysis • Incident Response
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Threat%20Intel-AbuseIPDB-green" />
+  <img src="https://img.shields.io/badge/Log%20Analysis-Google%20Sheets-orange" />
+  <img src="https://img.shields.io/badge/SOC-Simulation-blue" />
+  <img src="https://img.shields.io/badge/Incident%20Response-Analysis-purple" />
+  <img src="https://img.shields.io/badge/Framework-MITRE%20ATT%26CK-red" />
+  <img src="https://img.shields.io/badge/Status-Active%20Development-yellow" />
+</p>
+
 ---
 
 ## 👤 About Me
@@ -96,4 +105,103 @@ Simulate SOC analyst workflows by detecting suspicious login activity.
 ### Example Detection Logic
 Threat Flag → Suspicious if repeated login attempts exceed threshold
 Risk Level → Low / Medium / High based on behavior
+
+
+---
+
+### Skills Demonstrated
+- Log Analysis  
+- Pattern Recognition  
+- Threat Detection  
+- Risk Classification  
+- SOC-style Alert Triage  
+- Behavioral Analysis  
+- MITRE ATT&CK Mapping  
+
+---
+
+### MITRE ATT&CK Mapping
+
+| Behavior | Detection Focus | MITRE Mapping |
+|----------|---------------|--------------|
+| Failed logins | Password guessing | Brute Force |
+| Admin targeting | Privilege abuse | Privilege Abuse |
+| Success after failures | Credential compromise | Initial Access |
+| Location anomalies | Suspicious login behavior | Account Compromise |
+| Repeated IP activity | Automated attack patterns | Reconnaissance |
+
+---
+
+## 🚨 Cybersecurity Incident Response Report
+
+📄 Full Report:  
+[View Incident Response Report](Projects/incident-response-brute-force-analysis.md)
+
+---
+
+### Incident Title
+Suspicious Login Activity and Potential Brute Force Attack
+
+---
+
+### Summary
+A pattern of repeated failed login attempts followed by successful access from multiple international IP addresses indicated a likely brute force attack targeting both standard users and privileged accounts.
+
+---
+
+### Indicators of Compromise (IOCs)
+- IP: 45.23.11.9 (Russia)  
+- IP: 88.21.44.2 (China)  
+- Multiple failed login attempts  
+- Successful login after repeated failures  
+- Admin account targeted  
+- Suspicious geographic locations  
+
+---
+
+### Analysis
+The behavior observed is consistent with brute force attack techniques:
+
+- High volume of failed authentication attempts  
+- Automated login attempts from repeated IP addresses  
+- Successful authentication after multiple failures  
+- Targeting of high-value accounts  
+
+---
+
+### Impact Assessment
+- Potential unauthorized access to user accounts  
+- Elevated risk due to admin account involvement  
+- Possible exposure of sensitive system data  
+
+---
+
+### Mitigation Recommendations
+- Block or blacklist malicious IP addresses  
+- Enforce strong password policies  
+- Enable Multi-Factor Authentication (MFA)  
+- Monitor login behavior for anomalies  
+- Implement account lockout policies  
+
+---
+
+### Skills Demonstrated
+- Incident Analysis  
+- Threat Detection  
+- Log Analysis  
+- Risk Assessment  
+- SOC Workflow Understanding  
+
+---
+
+## 🎥 Project Presentation
+
+Watch the Incident Response & Cybersecurity Analysis Presentation:
+
+👉 https://youtu.be/14sSrcux18g
+
+---
+
+## 🧠 Key Takeaway
+Effective cybersecurity relies on identifying patterns in system activity, correlating multiple indicators of compromise, and responding quickly to prevent escalation of threats.
 
