@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Phishing Threat Analysis</title>
+<style>
+  :root{
+    --bg:#f7f7f5;--card:#ffffff;--text:#2b2b2b;--muted:#666;
+    --teal:#2f7f7c;--gold:#b89a49;--border:#e4e0d8;--soft:#eef6f5;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    font-family:Georgia,"Times New Roman",serif;
+    background:var(--bg);
+    color:var(--text);
+    line-height:1.65;
+  }
+  .hero{
+    background:linear-gradient(135deg,#245f5d,#4f9a97);
+    color:#fff;
+    padding:56px 24px;
+  }
+  .hero-inner,.container{
+    max-width:980px;
+    margin:0 auto;
+  }
+  .eyebrow{
+    text-transform:uppercase;
+    letter-spacing:.14em;
+    font-size:12px;
+    opacity:.85;
+    margin-bottom:12px;
+  }
+  h1{
+    margin:0 0 12px 0;
+    font-size:42px;
+    line-height:1.15;
+  }
+  .sub{
+    max-width:700px;
+    font-size:18px;
+    opacity:.92;
+  }
+  .container{
+    padding:32px 24px 60px;
+  }
+  .section{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:14px;
+    padding:26px;
+    margin-bottom:22px;
+    box-shadow:0 2px 10px rgba(0,0,0,.03);
+  }
+  h2{
+    margin-top:0;
+    font-size:30px;
+    color:var(--teal);
+    border-bottom:2px solid var(--gold);
+    padding-bottom:10px;
+  }
+  h3{
+    color:#6e5420;
+    margin-bottom:8px;
+  }
+  ul{
+    padding-left:22px;
+  }
+  .note{
+    background:var(--soft);
+    border-left:6px solid var(--teal);
+    padding:14px 16px;
+    border-radius:8px;
+    margin:14px 0 6px;
+  }
+  .grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:14px;
+    margin-top:14px;
+  }
+  .mini{
+    border:1px solid var(--border);
+    border-radius:10px;
+    padding:16px;
+    background:#fffdfa;
+  }
+  .mini strong{
+    display:block;
+    margin-bottom:8px;
+    color:var(--teal);
+  }
+  .footer{
+    text-align:center;
+    color:var(--muted);
+    font-size:14px;
+    padding-top:8px;
+  }
+</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow">Cybersecurity Project</div>
+      <h1>Phishing Threat Analysis</h1>
+      <div class="sub">
+        An analysis of phishing indicators, suspicious websites, attack types, and response actions in a simulated environment.
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>Overview</h2>
+      <p>
+        In this project, I analyzed phishing threats and identified the warning signs that help users and analysts recognize suspicious emails, fake websites, and social engineering attempts. The goal was to understand how phishing works, how to detect it, and what actions should be taken to reduce risk.
+      </p>
+      <div class="note">
+        <strong>Note:</strong> Developed as part of a cybersecurity internship using a simulated environment.
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Objective</h2>
+      <ul>
+        <li>Identify phishing indicators in emails and websites</li>
+        <li>Understand common phishing attack types</li>
+        <li>Improve detection of social engineering threats</li>
+        <li>Practice response steps used in security operations</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Methodology</h2>
+      <ul>
+        <li>Reviewed common phishing techniques</li>
+        <li>Identified red flags in emails and websites</li>
+        <li>Categorized phishing attack types</li>
+        <li>Documented safe response actions</li>
+        <li>Connected phishing detection to SOC responsibilities</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Email Red Flags</h2>
+      <div class="grid">
+        <div class="mini">
+          <strong>Sender and Domain Mismatch</strong>
+          Spoofed display names, lookalike domains, and unusual sender addresses.
+        </div>
+        <div class="mini">
+          <strong>Urgency and Pressure</strong>
+          Messages designed to force quick action before the user can verify.
+        </div>
+        <div class="mini">
+          <strong>Suspicious Content</strong>
+          Requests for passwords, financial details, or unexpected verification.
+        </div>
+        <div class="mini">
+          <strong>Links and Attachments</strong>
+          Hidden URLs, shortened links, or unexpected files.
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Suspicious Website Red Flags</h2>
+      <ul>
+        <li>Misspelled or lookalike URLs</li>
+        <li>No HTTPS or weak trust indicators</li>
+        <li>Fake login pages</li>
+        <li>Broken formatting or poor design</li>
+        <li>Requests for excessive personal information</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Phishing Types Identified</h2>
+      <div class="grid">
+        <div class="mini"><strong>Email Phishing</strong> Broad email campaigns targeting many users at once.</div>
+        <div class="mini"><strong>Spear Phishing</strong> More targeted attacks using personal or organizational details.</div>
+        <div class="mini"><strong>Whaling</strong> Attacks aimed at executives or leadership.</div>
+        <div class="mini"><strong>Smishing / Vishing</strong> Phishing through text messages or phone calls.</div>
+        <div class="mini"><strong>QR Code Phishing</strong> QR codes leading users to malicious websites.</div>
+        <div class="mini"><strong>Business Email Compromise</strong> Fraudulent requests that imitate trusted business contacts.</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Key Findings</h2>
+      <ul>
+        <li>Phishing often relies on urgency, trust, and confusion rather than technical complexity</li>
+        <li>Email and website indicators can reveal phishing attempts before harm occurs</li>
+        <li>Users are a critical part of security defense</li>
+        <li>Fast reporting reduces the impact of suspicious messages and links</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Response Guidance</h2>
+      <ol>
+        <li>Do not click links or open attachments</li>
+        <li>Preserve evidence with screenshots or saved messages</li>
+        <li>Report the message to the correct contact</li>
+        <li>If a link was clicked, notify support immediately</li>
+        <li>If credentials were entered, change passwords right away</li>
+        <li>Delete the message after documentation and reporting</li>
+      </ol>
+    </section>
+
+    <section class="section">
+      <h2>SOC Analyst Relevance</h2>
+      <p>
+        Phishing is one of the most common issues handled by SOC teams. Analysts must investigate suspicious emails, identify indicators of phishing, escalate confirmed threats, and support containment after user interaction.
+      </p>
+      <ul>
+        <li>Suspicious sender and link mismatch → possible phishing alert</li>
+        <li>Credential submission after fake login page → possible account compromise</li>
+        <li>Business email compromise attempt → fraud and escalation risk</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Skills Demonstrated</h2>
+      <ul>
+        <li>Phishing detection</li>
+        <li>Threat analysis</li>
+        <li>Social engineering awareness</li>
+        <li>Incident reporting</li>
+        <li>Security documentation</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>What I Learned</h2>
+      <p>
+        This project helped me understand that phishing attacks are effective because they target people, not just systems. Recognizing small warning signs early can prevent larger incidents and improve overall security response.
+      </p>
+    </section>
+
+    <div class="footer">
+      All scenarios and examples in this project are based on a simulated environment for educational purposes.
+    </div>
+  </main>
+</body>
+</html>
