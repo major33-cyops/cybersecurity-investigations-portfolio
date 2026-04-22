@@ -115,10 +115,11 @@ This project helped me understand that phishing attacks are effective because th
 
 ---
 
+## Notes
+All scenarios and examples in this project are based on a simulated environment for educational purposes.
+
+---
+
 ## 🌐 Live Project View
 
 👉 [View Full Project (Live Page)](https://major33-cyops.github.io/cybersecurity-investigations-portfolio/phishing-threat-analysis.html)
-
----
-## Notes
-All scenarios and examples in this project are based on a simulated environment for educational purposes.
