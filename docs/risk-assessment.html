@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cybersecurity Risk Assessment & Threat Prioritization</title>
+  <style>
+    :root{
+      --bg:#0f172a;
+      --card:#ffffff;
+      --text:#111827;
+      --muted:#6b7280;
+      --gold:#b89a49;
+      --border:#e5e7eb;
+      --soft:#f9fafb;
+      --high:#dc2626;
+      --med:#ea580c;
+      --low:#ca8a04;
+    }
+
+    body{
+      margin:0;
+      font-family:'Segoe UI', Arial, sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.6;
+    }
+
+    .hero{
+      background:#000;
+      color:#fff;
+      padding:60px 24px;
+      text-align:center;
+      border-bottom:4px solid var(--gold);
+    }
+
+    .hero h1{
+      margin:0 0 10px;
+      font-size:42px;
+      letter-spacing:1px;
+    }
+
+    .hero p{
+      margin:0;
+      color:#d1d5db;
+      font-size:18px;
+    }
+
+    .container{
+      max-width:1000px;
+      margin:auto;
+      padding:40px 20px;
+    }
+
+    .section{
+      background:var(--card);
+      border-radius:12px;
+      padding:28px;
+      margin-bottom:24px;
+      border:1px solid var(--border);
+      box-shadow:0 4px 20px rgba(0,0,0,.08);
+    }
+
+    h2{
+      color:var(--text);
+      border-left:5px solid var(--gold);
+      padding-left:12px;
+      margin-top:0;
+      margin-bottom:16px;
+    }
+
+    .note{
+      background:var(--soft);
+      border-left:5px solid var(--gold);
+      padding:14px;
+      border-radius:8px;
+      margin-top:12px;
+    }
+
+    ul{
+      padding-left:20px;
+    }
+
+    li{
+      margin-bottom:6px;
+    }
+
+    table{
+      width:100%;
+      border-collapse:collapse;
+      margin-top:14px;
+    }
+
+    th, td{
+      border:1px solid var(--border);
+      padding:12px;
+      text-align:left;
+      vertical-align:top;
+    }
+
+    th{
+      background:#111827;
+      color:#fff;
+    }
+
+    .matrix td:first-child,
+    .matrix th:first-child{
+      font-weight:700;
+      background:#f8fafc;
+    }
+
+    .risk-high{
+      background:#fee2e2;
+      color:#991b1b;
+      font-weight:600;
+    }
+
+    .risk-med{
+      background:#ffedd5;
+      color:#9a3412;
+      font-weight:600;
+    }
+
+    .risk-low{
+      background:#fef3c7;
+      color:#854d0e;
+      font-weight:600;
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <h1>Cybersecurity Risk Assessment & Threat Prioritization</h1>
+    <p>SOC-focused risk evaluation, prioritization, and mitigation planning</p>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>Overview</h2>
+      <p>
+        In this project, I conducted a cybersecurity risk assessment in a simulated organizational environment to identify potential threats, evaluate their likelihood and impact, and prioritize them based on risk level.
+      </p>
+      <div class="note">
+        <strong>Key Takeaway:</strong> Risk assessment helps security teams focus on the threats most likely to cause real damage, improving prioritization and response.
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Objective</h2>
+      <ul>
+        <li>Identify common cybersecurity threats</li>
+        <li>Evaluate likelihood and potential impact</li>
+        <li>Assign risk levels</li>
+        <li>Recommend mitigation strategies</li>
+        <li>Understand how risk influences SOC priorities</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Risk Assessment Matrix</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Threat</th>
+            <th>Likelihood</th>
+            <th>Impact</th>
+            <th>Risk Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Phishing Attack</td>
+            <td>High</td>
+            <td>High</td>
+            <td class="risk-high">High</td>
+          </tr>
+          <tr>
+            <td>Brute Force Login</td>
+            <td>High</td>
+            <td>Medium</td>
+            <td class="risk-high">High</td>
+          </tr>
+          <tr>
+            <td>Malware Infection</td>
+            <td>Medium</td>
+            <td>High</td>
+            <td class="risk-med">Medium</td>
+          </tr>
+          <tr>
+            <td>Insider Threat</td>
+            <td>Low</td>
+            <td>High</td>
+            <td class="risk-med">Medium</td>
+          </tr>
+          <tr>
+            <td>Misconfiguration</td>
+            <td>Medium</td>
+            <td>Medium</td>
+            <td class="risk-low">Low</td>
+          </tr>
+          <tr>
+            <td>AI System Misuse</td>
+            <td>High</td>
+            <td>High</td>
+            <td class="risk-high">High</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>Visual Risk Matrix</h2>
+      <table class="matrix">
+        <thead>
+          <tr>
+            <th>Impact \ Likelihood</th>
+            <th>Low</th>
+            <th>Medium</th>
+            <th>High</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>High</td>
+            <td class="risk-med">Insider Threat</td>
+            <td class="risk-med">Malware Infection</td>
+            <td class="risk-high">Phishing Attack<br>AI System Misuse</td>
+          </tr>
+          <tr>
+            <td>Medium</td>
+            <td></td>
+            <td class="risk-low">Misconfiguration</td>
+            <td class="risk-high">Brute Force Login</td>
+          </tr>
+          <tr>
+            <td>Low</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>Key Findings</h2>
+      <ul>
+        <li>Phishing remains one of the highest-risk threats because it combines high likelihood with high impact.</li>
+        <li>Brute force attacks require strong authentication controls and monitoring.</li>
+        <li>Malware and insider threats require layered controls and visibility.</li>
+        <li>AI-related misuse is an emerging high-risk area when sensitive data or unreliable outputs are involved.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Mitigation Strategies</h2>
+      <ul>
+        <li>Enable Multi-Factor Authentication (MFA)</li>
+        <li>Enforce strong password policies</li>
+        <li>Deploy phishing detection and email filtering</li>
+        <li>Use logging and continuous monitoring</li>
+        <li>Apply least privilege access controls</li>
+        <li>Establish policies for responsible AI usage</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>SOC Analyst Relevance</h2>
+      <p>
+        Risk assessment supports SOC workflows by helping analysts prioritize alerts, focus on high-impact threats, and reduce alert fatigue through better triage decisions.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>What I Learned</h2>
+      <p>
+        This project reinforced that not all threats carry equal risk. Effective security depends on prioritizing high-impact threats and applying layered controls to reduce overall risk before incidents escalate.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
