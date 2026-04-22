@@ -21,8 +21,6 @@
 
 ---
 
-# Cybersecurity Investigations Portfolio
-
 ## 👤 About Me
 Aspiring SOC Analyst focused on threat detection, log analysis, and incident response through hands-on cybersecurity labs and real-world investigation scenarios.
 
