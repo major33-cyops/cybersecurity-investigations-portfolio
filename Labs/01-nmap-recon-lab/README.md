@@ -54,6 +54,16 @@ nmap -sC -sV -vv <target-ip>
 
 ---
 
+## 🔍 Screenshots & Evidence
+
+### 1. Initial Nmap Scan Command Execution
+
+![Scan Command](screenshots/scan-command.png)
+
+This screenshot shows the execution of the Nmap command used to initiate the scan against the target system. The flags `-sC` and `-sV` enable default script scanning and service version detection, which are critical for identifying potential vulnerabilities.
+
+---
+
 ## 🔍 Key Findings
 
 * FTP (Port 21) → Anonymous login enabled
