@@ -82,6 +82,12 @@ This screenshot shows database services detected on the target system, including
 
 Exposed database services present significant security risks, especially if they are accessible without proper authentication or are running outdated versions. Attackers often target these services to extract data or gain deeper access into the system.
 
+![SMB Enumeration](screenshots/smb-enumeration.png)
+
+This screenshot shows detailed enumeration of SMB (Server Message Block) services running on the target system. The scan reveals information such as NetBIOS naming, operating system details, and security configurations.
+
+Notably, the output indicates that guest access is allowed and message signing is disabled. These conditions can introduce significant security risks, including unauthorized access and susceptibility to man-in-the-middle attacks.
+
 
 
 ---
