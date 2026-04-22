@@ -87,6 +87,7 @@ The IP shows strong indicators of malicious activity based on a high number of a
 
 ### Objective
 Simulate SOC analyst workflows by detecting suspicious login activity.
+Note: All IP addresses and log data shown in this project are part of a simulated lab environment for educational purposes.
 
 ### Detection Logic Implemented
 - IP repetition detection  
