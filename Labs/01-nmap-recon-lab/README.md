@@ -70,6 +70,12 @@ The scan also identified the specific version of OpenSSH running on the target s
 
 This step demonstrates how attackers move from simply identifying open ports to understanding what services are running and whether they present security risks.
 
+![Web Server](screenshots/web-server.png)
+
+This screenshot shows the identification of a web server running on port 80. The Nmap scan detected Apache HTTP Server along with additional details such as supported HTTP methods and server headers.
+
+Web servers are one of the most common attack surfaces in real-world environments. Identifying the web service and its version allows security analysts to assess potential vulnerabilities, such as outdated software or misconfigurations that could be exploited.
+
 ---
 
 ## 🔍 Key Findings
