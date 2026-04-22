@@ -196,7 +196,9 @@ The behavior observed is consistent with brute force attack techniques:
 
 ## 🎥 Project Presentation
 
-Watch the Incident Response & Cybersecurity Analysis Presentation:
+Incident Response, Digital Forensics & Counterintelligence (TLT Internship Group Project)
+
+Watch the presentation:
 
 👉 https://youtu.be/14sSrcux18g
 
