@@ -7,6 +7,12 @@ This project combines secure coding, input validation, logging, and alerting to 
 
 ---
 
+## Key Takeaway (SOC Perspective)
+
+This project demonstrates how preventive and detective security controls work together to block malicious input, generate logs, and support incident investigation within a SOC environment.
+
+---
+
 ## Objective
 - Implement input validation as a security control  
 - Detect and block suspicious or malicious user input  
@@ -25,11 +31,11 @@ This project combines secure coding, input validation, logging, and alerting to 
 ---
 
 ## Methodology
-- Built a filtering system to inspect user input  
-- Defined a blacklist of suspicious keywords  
-- Implemented input length restrictions  
-- Logged all user activity (allowed and blocked)  
-- Triggered alerts after repeated suspicious attempts  
+- Designed input validation rules to identify high-risk user behavior  
+- Implemented keyword-based filtering for known malicious patterns  
+- Applied length restrictions to prevent abuse and injection attempts  
+- Developed logging mechanisms to track all activity  
+- Simulated alert conditions based on repeated suspicious input  
 
 ---
 
@@ -149,7 +155,7 @@ This demonstrates the firewall running inside a Linux (Ubuntu) virtual machine, 
 ## What I Learned
 This project showed that effective security is not only about detecting attacks, but preventing them before they happen. Even simple controls like input filtering, logging, and alerting can significantly reduce risk when applied correctly.
 
-It also reinforced how security controls support SOC operations by providing visibility, detection, and response capabilities.
+It also reinforced how security controls support SOC operations by providing visibility, detection, and response capabilities. Security controls are most effective when combined—prevention, detection, and monitoring must work together to reduce risk and support investigation.
 
 ---
 
