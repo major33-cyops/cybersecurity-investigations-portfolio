@@ -18,6 +18,17 @@ Aspiring SOC Analyst focused on threat detection, log analysis, and incident res
 
 ---
 
+## 🎓 Internship Experience
+
+Some projects in this portfolio were developed during a cybersecurity internship and demonstrate applied skills in:
+
+- Threat detection
+- Incident response
+- Phishing analysis
+- Security controls evaluation
+
+---
+
 ## 🎯 Core Focus Areas
 - Threat Intelligence  
 - Log Analysis  
