@@ -136,6 +136,20 @@ This type of scan would generate:
 
 ---
 
+## 🛡️ SOC Analyst Relevance
+
+Although Nmap is commonly used by attackers for reconnaissance, SOC analysts must understand how these scans appear in logs and network traffic.
+
+This type of activity would typically generate:
+
+- IDS/IPS alerts for port scanning
+- Firewall logs showing repeated connection attempts
+- Unusual traffic patterns across multiple ports
+
+Understanding reconnaissance behavior helps analysts identify early-stage attacks before exploitation occurs.
+
+---
+
 ## 📚 Skills Gained
 
 * Network reconnaissance
