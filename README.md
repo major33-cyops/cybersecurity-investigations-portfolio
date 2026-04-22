@@ -1,8 +1,6 @@
-<h1 align="center">Cybersecurity Investigations Portfolio</h1>
+# Cybersecurity Investigations Portfolio
 
-<p align="center">
-  Aspiring SOC Analyst • Threat Detection • Log Analysis • Incident Response
-</p>
+Aspiring SOC Analyst • Threat Detection • Log Analysis • Incident Response
 
 <p align="center">
   <img src="https://img.shields.io/badge/Threat%20Intel-AbuseIPDB-green" />
@@ -10,13 +8,7 @@
   <img src="https://img.shields.io/badge/SOC-Simulation-blue" />
   <img src="https://img.shields.io/badge/Incident%20Response-Analysis-purple" />
   <img src="https://img.shields.io/badge/Framework-MITRE%20ATT%26CK-red" />
-</p>
-
-<p align="center">
-  <a href="#-about-me">About</a> •
-  <a href="#-hands-on-labs">Labs</a> •
-  <a href="#-projects--investigations">Projects</a> •
-  <a href="#-cybersecurity-incident-response-report">Incident Report</a>
+  <img src="https://img.shields.io/badge/Status-Active%20Development-yellow" />
 </p>
 
 ---
@@ -27,38 +19,40 @@ Aspiring SOC Analyst focused on threat detection, log analysis, and incident res
 ---
 
 ## 🎯 Core Focus Areas
-Threat Intelligence • Log Analysis • Incident Response • MITRE ATT&CK
+- Threat Intelligence  
+- Log Analysis  
+- Incident Response  
+- MITRE ATT&CK  
 
 ---
 
 ## 🧠 Skills
-- Log Analysis
-- Threat Detection
-- Incident Response
-- Network Traffic Analysis (In Progress)
-- Linux Security Fundamentals
-- Risk Assessment
-- MITRE ATT&CK Mapping
+- Log Analysis  
+- Threat Detection  
+- Incident Response  
+- Network Traffic Analysis (In Progress)  
+- Linux Security Fundamentals  
+- Risk Assessment  
+- MITRE ATT&CK Mapping  
 
 ---
 
 ## 🛠️ Tools
-- Linux CLI
-- DVWA (Damn Vulnerable Web App)
-- Metasploit
-- Threat Intelligence Platforms
-- Wireshark (In Progress)
-- AWS Monitoring (In Progress)
+- Linux CLI  
+- DVWA (Damn Vulnerable Web App)  
+- Metasploit  
+- Threat Intelligence Platforms  
+- Wireshark (In Progress)  
+- AWS Monitoring (In Progress)  
 
 ---
 
 ## 📂 Hands-On Labs
-
-- Web Exploitation (DVWA)
-- Linux Permissions & Access Control
-- Linux Log Analysis (Planned)
-- Packet Analysis – Wireshark (Planned)
-- AWS Monitoring & Alerts (Planned)
+- Web Exploitation (DVWA)  
+- Linux Permissions & Access Control  
+- Linux Log Analysis (Planned)  
+- Packet Analysis – Wireshark (Planned)  
+- AWS Monitoring & Alerts (Planned)  
 
 ---
 
@@ -76,7 +70,11 @@ Investigate a suspicious IP address using a threat intelligence platform.
 - Confidence of Abuse: 100%  
 - Reports: 4,936  
 - Location: France  
-- Usage Type: Data Center / Hosting  
+- Usage Type: Data Center / Hosting
+
+📸 Evidence:
+![AbuseIPDB Result](images/abuseipdb.png)
+This screenshot shows the IP flagged with a 100% abuse confidence score, confirming malicious activity.
 
 ### Analysis
 The IP shows strong indicators of malicious activity based on a high number of abuse reports and infrastructure commonly associated with automated attacks such as scanning and brute force attempts.
@@ -93,13 +91,18 @@ The IP shows strong indicators of malicious activity based on a high number of a
 
 ### Objective
 Simulate SOC analyst workflows by detecting suspicious login activity.
+Note: All IP addresses and log data shown in this project are part of a simulated lab environment for educational purposes.
 
 ### Detection Logic Implemented
 - IP repetition detection  
 - Threat classification (Normal / Suspicious)  
 - Impossible travel detection  
 - High-value account monitoring  
-- Risk scoring (Low / Medium / High)  
+- Risk scoring (Low / Medium / High)
+
+📸 Evidence:
+![Log Analysis Dashboard](images/log-analysis.png)
+This simulated dashboard highlights suspicious login patterns, including repeated failed attempts and high-risk activity.
 
 ### Threats Identified
 - Brute force attacks  
@@ -112,6 +115,9 @@ Simulate SOC analyst workflows by detecting suspicious login activity.
 Threat Flag → Suspicious if repeated login attempts exceed threshold
 Risk Level → Low / Medium / High based on behavior
 
+
+---
+
 ### Skills Demonstrated
 - Log Analysis  
 - Pattern Recognition  
@@ -119,6 +125,9 @@ Risk Level → Low / Medium / High based on behavior
 - Risk Classification  
 - SOC-style Alert Triage  
 - Behavioral Analysis  
+- MITRE ATT&CK Mapping  
+
+---
 
 ### MITRE ATT&CK Mapping
 
@@ -137,8 +146,12 @@ Risk Level → Low / Medium / High based on behavior
 📄 Full Report:  
 [View Incident Response Report](Projects/incident-response-brute-force-analysis.md)
 
+---
+
 ### Incident Title
 Suspicious Login Activity and Potential Brute Force Attack
+
+---
 
 ### Summary
 A pattern of repeated failed login attempts followed by successful access from multiple international IP addresses indicated a likely brute force attack targeting both standard users and privileged accounts.
@@ -192,7 +205,9 @@ The behavior observed is consistent with brute force attack techniques:
 
 ## 🎥 Project Presentation
 
-Watch the Incident Response & Cybersecurity Analysis Presentation:
+Incident Response, Digital Forensics & Counterintelligence (TLT Internship Group Project)
+
+Watch the presentation:
 
 👉 https://youtu.be/14sSrcux18g
 
