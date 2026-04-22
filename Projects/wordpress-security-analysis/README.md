@@ -1,7 +1,5 @@
----
+## 📊 Full Project View
 
-## 📊 Full Project View (Interactive HTML)
+👉 [Download & Open HTML Version](wordpress-security-analysis.html)
 
-For a more detailed and visually formatted version of this project:
-
-👉 [View HTML Version](wordpress-security-analysis.html)
+Note: Download the file and open it in a browser to view the full formatted project.
