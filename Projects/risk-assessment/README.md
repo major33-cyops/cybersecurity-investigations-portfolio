@@ -1,19 +1,13 @@
 # Cybersecurity Risk Assessment & Threat Prioritization
 
 ## Overview
-In this project, I conducted a simulated cybersecurity risk assessment to identify potential threats, evaluate their impact, and prioritize them based on severity. The goal was to simulate how security teams assess risk and determine which threats require immediate attention.
-
----
-
-## Key Takeaway (SOC Perspective)
-
-This project demonstrates how risk assessment is used to prioritize threats based on likelihood and impact, allowing SOC teams to focus on the most critical security issues and respond effectively.
+In this project, I conducted a cybersecurity risk assessment in a simulated organizational environment to identify potential threats, evaluate their likelihood and impact, and prioritize them based on risk level. The objective was to demonstrate how security teams proactively assess risk and determine which threats require immediate attention.
 
 ---
 
 ## Objective
 - Identify common cybersecurity threats  
-- Assess likelihood and impact of each threat  
+- Evaluate likelihood and potential impact  
 - Assign risk levels (Low, Medium, High)  
 - Recommend mitigation strategies  
 - Understand how risk influences SOC priorities  
@@ -21,91 +15,131 @@ This project demonstrates how risk assessment is used to prioritize threats base
 ---
 
 ## Environment
-- Simulated organizational environment  
-- Focus on common enterprise threats  
-- Risk evaluation based on real-world scenarios  
+- Simulated enterprise/nonprofit environment  
+- Focus on systems handling user data, communications, and cloud-based tools  
+- Risk evaluation based on realistic threat scenarios  
 
 ---
 
 ## Methodology
-- Identified potential threats to systems and users  
-- Evaluated likelihood of occurrence  
-- Assessed potential impact on operations  
-- Assigned risk levels based on combined factors  
-- Developed mitigation strategies for each risk  
+- Identified potential threats affecting systems and users  
+- Assessed likelihood of occurrence for each threat  
+- Evaluated impact on confidentiality, integrity, and availability (CIA triad)  
+- Assigned risk levels based on combined likelihood and impact  
+- Developed mitigation strategies aligned with security best practices  
 
 ---
 
 ## Risk Assessment Matrix
 
 | Threat | Likelihood | Impact | Risk Level |
-|--------|-----------|--------|------------|
+|---|---|---|---|
 | Phishing Attack | High | High | 🔴 High |
 | Brute Force Login | High | Medium | 🔴 High |
 | Malware Infection | Medium | High | 🟠 Medium |
 | Insider Threat | Low | High | 🟠 Medium |
 | Misconfiguration | Medium | Medium | 🟡 Low |
+| AI System Misuse | High | High | 🔴 High |
 
 ---
 
 ## Key Findings
-- Phishing represents one of the highest risks due to high likelihood and user targeting  
+- Phishing remains one of the highest-risk threats due to its high success rate and reliance on user behavior  
 - Brute force attacks are common and require strong authentication controls  
-- Malware can significantly impact systems if not detected early  
-- Misconfigurations can introduce vulnerabilities even without active attacks  
+- Malware can significantly impact system availability and data integrity  
+- Misconfigurations introduce vulnerabilities even without active attacks  
+- AI-related risks are emerging threats that may expose sensitive data or produce unreliable outputs  
+
+---
+
+## Risk Analysis
+
+### High Risk Threats
+- Phishing attacks (high likelihood, high impact)  
+- AI misuse or data leakage (high likelihood, high impact)  
+- Brute force login attempts (high likelihood, medium impact)  
+
+These threats require immediate mitigation due to their frequency and potential for compromise.
+
+---
+
+### Medium Risk Threats
+- Malware infections  
+- Insider threats  
+
+These threats require monitoring and layered security controls.
+
+---
+
+### Low Risk Threats
+- System misconfigurations  
+
+While lower priority, these still require regular review and maintenance.
 
 ---
 
 ## Mitigation Strategies
 
-### High Risk
+### High Priority Controls
 - Implement Multi-Factor Authentication (MFA)  
 - Enforce strong password policies  
-- Deploy email filtering and phishing protection  
+- Deploy phishing detection and email filtering solutions  
 
-### Medium Risk
-- Maintain updated antivirus and endpoint protection  
-- Monitor system activity and logs  
+### Monitoring & Detection
+- Enable logging and continuous monitoring  
+- Use intrusion detection systems (IDS)  
+- Monitor user behavior for anomalies  
+
+### Preventive Controls
 - Conduct regular security awareness training  
+- Apply least privilege access controls  
+- Keep systems and software updated  
 
-### Low Risk
-- Perform periodic audits  
-- Review configurations regularly  
-- Apply security updates  
+### AI Security Considerations
+- Limit sensitive data exposure to AI tools  
+- Validate AI-generated outputs  
+- Establish policies for responsible AI usage  
 
 ---
 
 ## SOC Analyst Relevance
-Risk assessment helps SOC analysts prioritize alerts and focus on the most critical threats.
+Risk assessment plays a critical role in Security Operations Center (SOC) workflows.
 
 SOC analysts must:
-- Understand which threats pose the highest risk  
-- Prioritize incidents based on impact and likelihood  
-- Allocate resources effectively  
-- Reduce alert fatigue by focusing on high-risk activity  
+- Prioritize alerts based on risk severity  
+- Focus on high-impact threats first  
+- Reduce alert fatigue by filtering low-risk activity  
+- Support proactive defense strategies  
+
+Understanding risk allows analysts to make informed decisions and respond more effectively to threats.
 
 ---
 
 ## Skills Demonstrated
-- Risk analysis  
-- Threat prioritization  
+- Risk analysis and prioritization  
+- Threat modeling  
 - Security decision-making  
 - Analytical thinking  
 - Cybersecurity documentation  
+- SOC workflow alignment  
 
 ---
 
 ## What I Learned
-This project showed that not all threats are equal. Understanding risk allows security teams to focus on the most critical issues and respond more effectively.
+This project reinforced that not all threats carry equal risk. Effective security depends on prioritizing high-impact threats and applying layered controls to reduce overall risk.
 
-It reinforced that cybersecurity is not just about reacting to alerts, but making informed decisions about which threats matter most.
-
----
-
-## Screenshots
-(Add later if you create a chart or visual)
+It also highlighted that cybersecurity is not only about reacting to incidents, but proactively identifying and mitigating threats before they occur.
 
 ---
 
 ## Notes
-All scenarios in this project are based on a simulated environment for educational purposes.
+All scenarios and examples in this project are based on a simulated environment for educational purposes.
+
+---
+
+## References
+- NIST Cybersecurity Framework  
+- NIST SP 800-61 Incident Response Guide  
+- CIS Critical Security Controls v8  
+- CISA Cybersecurity Best Practices  
+- SANS Security Awareness Resources  
