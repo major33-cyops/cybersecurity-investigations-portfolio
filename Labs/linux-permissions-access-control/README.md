@@ -76,4 +76,4 @@ I applied numeric permissions and tested what actions were allowed for other use
 This lab reflects real-world security practices where analysts verify access controls, investigate permission issues, and ensure that users only have the access they need.
 
 ## What I Learned
-This lab helped me understand how Linux enforces access control and how permissions directly impact system security. I practiced verifying access between users and applying changes to restrict unauthorized activity.
+This lab helped me understand how Linux enforces access control and how permissions directly impact system security. I practiced verifying access between users and applying changes to restrict unauthorized activity. 
