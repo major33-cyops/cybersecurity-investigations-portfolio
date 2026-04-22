@@ -60,6 +60,18 @@ Some projects in this portfolio were developed during a cybersecurity internship
 
 # 🔍 Featured Projects
 
+---
+
+## 🎥 Project Presentation
+
+Incident Response, Digital Forensics & Counterintelligence (TLT Internship Group Project)
+
+Watch the presentation:
+
+👉 https://youtu.be/14sSrcux18g
+
+---
+
 ## 🧠 SOC-Focused Investigations
 
 - 🔎 [IP Reputation Analysis](Projects/wordfence-alert-investigation/)
