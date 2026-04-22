@@ -18,6 +18,11 @@ Aspiring SOC Analyst focused on threat detection, log analysis, and incident res
 
 ---
 
+## 🧠 SOC Perspective
+This portfolio demonstrates hands-on experience in detecting, analyzing, and responding to cybersecurity threats using structured workflows aligned with real-world Security Operations Center (SOC) practices.
+
+---
+
 ## 🎓 Internship Experience
 
 Some projects in this portfolio were developed during a cybersecurity internship and demonstrate applied skills in:
@@ -62,6 +67,19 @@ Some projects in this portfolio were developed during a cybersecurity internship
 
 ---
 
+## 🧠 SOC-Focused Investigations
+
+- 🔎 [IP Reputation Analysis](Projects/wordfence-alert-investigation/)
+- 📊 [SOC Log Analysis & Threat Detection](Projects/log-analysis-lab/) 
+- 🚨 [Incident Response Report](Projects/incident-response-brute-force-analysis/)
+- 🛡️ [Security Controls Analysis](Projects/security-controls-analysis/)
+- 🎣 [Phishing Threat Analysis](Projects/phishing-threat-analysis/)
+- ⚖️ [Risk Assessment & Threat Prioritization](Projects/risk-assessment/)
+
+👉 Explore detailed investigations and lab work in the **Projects** section above.
+
+---
+
 ## 🎥 Project Presentation
 
 Incident Response, Digital Forensics & Counterintelligence (TLT Internship Group Project)
@@ -71,16 +89,3 @@ Watch the presentation:
 👉 https://youtu.be/14sSrcux18g
 
 ---
-
-## 🧠 SOC-Focused Investigations
-
-- 🔎 [IP Reputation Analysis](Projects/wordfence-alert-investigation/)
-- 📊 [SOC Log Analysis & Threat Detection](Projects/log-analysis-lab/) 
-- 🚨 [Incident Response Report](Projects/incident-response-brute-force-analysis.md)
-- 🛡️ [Security Controls Analysis](Projects/security-controls-analysis/)
-- 🎣 [Phishing Threat Analysis](Projects/phishing-threat-analysis/)
-- ⚖️ [Risk Assessment & Threat Prioritization](Projects/risk-assessment/)
-
----
-
-👉 Explore the full portfolio in the **Projects** folder above.
