@@ -37,19 +37,10 @@ In this project, I investigated a firewall alert showing a high volume of blocke
 
 ---
 
-## Evidence
-
-### Wordfence Alert Output
-![Wordfence Alert](screenshots/wordfence-alert.png)
-
-This screenshot shows the firewall detecting and blocking repeated inbound requests, indicating automated activity.
-
----
-
-### IP Reputation Analysis (AbuseIPDB)
+## IP Reputation Analysis (AbuseIPDB)
 ![AbuseIPDB Result](screenshots/abuseipdb.png)
 
-The IP was flagged with a high abuse confidence score, confirming a history of malicious behavior.
+The investigated IP address was flagged with a high abuse confidence score, indicating a history of malicious activity such as scanning and brute force attempts.
 
 ---
 
