@@ -113,16 +113,16 @@ SOC analysts must:
 ## Screenshots
 
 ### Firewall Blocking Suspicious Input
-(Add your screenshot here)
+![Firewall Block](screenshots/firewall-block.png)
 
-### Alert Triggering After Repeated Attempts
-(Add your screenshot here)
+### Firewall Detection Logic (Code)
+![Firewall Code](screenshots/firewall-code.png)
 
-### Log File Showing Activity
-(Add your screenshot here)
+### Firewall Running in Ubuntu Environment
+![Ubuntu Firewall](screenshots/ubuntu-firewall-run.png)
 
-### Ubuntu Environment & Firewall Execution
-(Add your VM screenshots here)
+### Log Output and Alert Detection
+![Log Output](screenshots/log-analysis-output.png)
 
 ---
 
