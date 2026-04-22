@@ -76,6 +76,14 @@ This screenshot shows the identification of a web server running on port 80. The
 
 Web servers are one of the most common attack surfaces in real-world environments. Identifying the web service and its version allows security analysts to assess potential vulnerabilities, such as outdated software or misconfigurations that could be exploited.
 
+![Database Services](screenshots/database-services.png)
+
+This screenshot shows database services detected on the target system, including MySQL on port 3306 and PostgreSQL on port 5432. These services indicate that the system is running backend databases that may store sensitive information.
+
+Exposed database services present significant security risks, especially if they are accessible without proper authentication or are running outdated versions. Attackers often target these services to extract data or gain deeper access into the system.
+
+
+
 ---
 
 ## 🔍 Key Findings
