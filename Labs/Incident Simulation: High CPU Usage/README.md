@@ -74,9 +74,9 @@ This project demonstrates how SOC analysts monitor cloud infrastructure, detect 
 
 ## 🛑 Response Phase (Mitigation)
 
-📸 CPU Usage Dropping After Response and 🟢 Recovery Phase (System Stabilized)
+📸 CPU Usage Dropping After Response and Recovery Phase (System Stabilized)
 ![CPU Drop](screenshots/cpu-drop.png)
-![Alarm Resolved](screenshots/alarm resolved.png) 
+![Alarm Resolved](screenshots/alarm-resolved.png) 
 
 
 **Action Taken:**
