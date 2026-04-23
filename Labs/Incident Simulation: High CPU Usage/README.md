@@ -1,43 +1,141 @@
-🚨 Incident Simulation: High CPU Usage
-📸 CPU Spike Detected (Initial Condition)
+# ☁️ AWS SOC Lab: CloudWatch CPU Alert Detection & Response
 
-High CPU utilization was intentionally generated using multiple background processes to simulate abnormal system activity such as cryptomining or denial-of-service behavior.
+## 📌 Overview
+In this lab, I simulated suspicious system activity on an AWS EC2 instance and configured Amazon CloudWatch to detect and alert on abnormal CPU usage.
 
-📸 CloudWatch Alarm Triggered (Detection)
+This project demonstrates how SOC analysts monitor cloud infrastructure, detect anomalies, and respond to potential threats in real time.
 
-AWS CloudWatch detected that CPU usage exceeded the defined threshold (70%) and triggered an alert, transitioning the alarm state from:
+---
 
-➡️ OK → ALARM
+## 🎯 Objectives
+- Deploy an EC2 instance (Free Tier)
+- Simulate high CPU usage (potential attack behavior)
+- Configure CloudWatch alarm for detection
+- Trigger alert and receive SNS email notification
+- Respond and return system to normal state
 
-📸 Alert Notification Received (SNS Email)
+---
 
-An automated email alert was sent via Amazon SNS, demonstrating real-time notification and escalation capabilities used in Security Operations Centers (SOC).
+## 🛠️ Tools & Services
+- AWS EC2 (t3.micro)
+- AWS CloudWatch
+- AWS SNS (Email Alerts)
+- Linux CLI (`top`, `yes`, `pkill`)
 
-📸 CPU Recovery After Mitigation (Response)
+---
 
-The abnormal activity was mitigated by terminating the resource-intensive processes:
+## ⚙️ Alarm Configuration
+- **Metric:** CPUUtilization  
+- **Threshold:** > 70%  
+- **Period:** 5 minutes  
+- **Evaluation:** 1 datapoint  
+- **Notification:** SNS Email  
 
+---
+
+## 🚨 Attack Simulation (High CPU)
+
+📸 High CPU Usage Detected  
+![High CPU](screenshots/high-cpu.png)
+
+**What this shows:**
+- Multiple `yes` processes consuming CPU
+- CPU utilization spikes close to 100%
+- Simulates resource abuse (crypto mining / DoS behavior)
+
+---
+
+## 🔴 Detection Phase (Alarm Triggered)
+
+📸 CloudWatch Alarm Triggered  
+![Alarm Triggered](screenshots/alarm-triggered.png)
+
+**What this shows:**
+- Alarm state changed from **OK → ALARM**
+- CPU exceeded defined threshold
+- Detection of abnormal system activity
+
+---
+
+## 📧 Alert Notification
+
+📸 SNS Email Alert Received  
+![Email Alert](screenshots/email-alert.png)
+
+**What this shows:**
+- Real-time alert sent to analyst
+- Includes:
+  - Alarm name
+  - Threshold breach details
+  - Timestamp
+- Simulates SOC alerting workflow
+
+---
+
+## 🛑 Response Phase (Mitigation)
+
+📸 CPU Usage Dropping After Response  
+![CPU Drop](screenshots/cpu-drop.png)
+
+**Action Taken:**
+```bash
 pkill yes
 
-CPU utilization returned to normal levels, indicating successful response.
+---
 
-📸 Alarm Returned to Normal (Recovery)
+## What this shows:
+Malicious/suspicious processes terminated
+CPU usage begins returning to normal
+🟢 Recovery Phase (System Stabilized)
 
-CloudWatch confirmed system recovery by transitioning the alarm state from:
+📸 CloudWatch Alarm Returned to OK
+What this shows:
 
-➡️ ALARM → OK
+Alarm state changed from ALARM → OK
+System stabilized after response
+Monitoring confirms resolution
 
-🧠 Key SOC Skills Demonstrated
-Monitoring cloud infrastructure using AWS CloudWatch
-Configuring alert thresholds for anomaly detection
-Detecting abnormal system behavior
-Investigating system performance using Linux tools (top)
-Executing incident response actions
-Validating recovery through monitoring systems
-🎯 Summary
+---
 
-This lab demonstrates a complete Security Operations Center (SOC) workflow:
+## 🧠 SOC Analysis
 
-➡️ Detection → Alerting → Investigation → Response → Recovery
+🔍 What Happened
+Sudden spike in CPU usage triggered alert
+Behavior consistent with:
+Resource exhaustion attack
+Cryptomining activity
+Misconfigured processes
 
-Simulating and responding to abnormal system activity in a cloud environment reflects real-world cybersecurity operations and incident handling.
+🚨 Why It Matters
+High CPU usage can indicate:
+
+Compromised systems
+Unauthorized workloads
+Performance degradation
+
+🛡️ Response Actions
+Identified abnormal processes
+Terminated malicious activity
+Verified system recovery through monitoring
+
+---
+
+## 📚 Key Takeaways
+CloudWatch provides real-time detection of system anomalies
+Alerts allow rapid SOC response
+Monitoring + response = critical for cloud security
+Even simple metrics (CPU) can reveal threats
+
+---
+
+## 🚀 Future Improvements
+Add memory and network monitoring alerts
+Integrate AWS GuardDuty for threat intelligence
+Forward logs to a SIEM (Splunk / ELK)
+Automate response using AWS Lambda
+
+---
+
+## 🏁 Conclusion
+This lab simulates a real-world SOC scenario where abnormal system activity is detected, investigated, and resolved using AWS monitoring tools.
+It demonstrates foundational cloud security skills required for a SOC Analyst role.
