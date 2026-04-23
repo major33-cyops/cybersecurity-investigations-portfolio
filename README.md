@@ -58,8 +58,8 @@ Some projects in this portfolio were developed during a cybersecurity internship
 - DVWA (Damn Vulnerable Web App)  
 - Metasploit  
 - Threat Intelligence Platforms  
-- Wireshark (In Progress)  
-- AWS Monitoring (In Progress)
+- Wireshark  
+- AWS Monitoring
 
 ---
 
