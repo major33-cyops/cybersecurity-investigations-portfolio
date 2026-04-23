@@ -74,8 +74,10 @@ This project demonstrates how SOC analysts monitor cloud infrastructure, detect 
 
 ## 🛑 Response Phase (Mitigation)
 
-📸 CPU Usage Dropping After Response  
+📸 CPU Usage Dropping After Response and 🟢 Recovery Phase (System Stabilized)
 ![CPU Drop](screenshots/cpu-drop.png)
+![Alarm Resolved](screenshots/alarm resolved.png) 
+
 
 **Action Taken:**
 ```bash
@@ -86,7 +88,6 @@ Malicious/suspicious processes terminated
 CPU usage begins returning to normal
 
 🟢 Recovery Phase (System Stabilized)
-![Alarm Resolved](screenshots/alarm resolved.png)
 
 📸 CloudWatch Alarm Returned to OK
 What this shows:
