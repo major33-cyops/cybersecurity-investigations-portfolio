@@ -96,7 +96,7 @@ Alarm state changed from ALARM → OK
 System stabilized after response
 Monitoring confirms resolution
 
-## 🧠 SOC Analysis
+🧠 SOC Analysis
 
 🔍 What Happened
 Sudden spike in CPU usage triggered alert
@@ -117,18 +117,18 @@ Identified abnormal processes
 Terminated malicious activity
 Verified system recovery through monitoring
 
-## 📚 Key Takeaways
+📚 Key Takeaways
 CloudWatch provides real-time detection of system anomalies
 Alerts allow rapid SOC response
 Monitoring + response = critical for cloud security
 Even simple metrics (CPU) can reveal threats
 
-## 🚀 Future Improvements
+🚀 Future Improvements
 Add memory and network monitoring alerts
 Integrate AWS GuardDuty for threat intelligence
 Forward logs to a SIEM (Splunk / ELK)
 Automate response using AWS Lambda
 
-## 🏁 Conclusion
+🏁 Conclusion
 This lab simulates a real-world SOC scenario where abnormal system activity is detected, investigated, and resolved using AWS monitoring tools.
 It demonstrates foundational cloud security skills required for a SOC Analyst role.
