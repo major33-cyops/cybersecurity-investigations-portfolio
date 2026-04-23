@@ -81,12 +81,12 @@ This project demonstrates how SOC analysts monitor cloud infrastructure, detect 
 ```bash
 pkill yes
 
----
-
 ## What this shows:
 Malicious/suspicious processes terminated
 CPU usage begins returning to normal
+
 🟢 Recovery Phase (System Stabilized)
+![Alarm Resolved](screenshots/alarm resolved.png)
 
 📸 CloudWatch Alarm Returned to OK
 What this shows:
@@ -94,8 +94,6 @@ What this shows:
 Alarm state changed from ALARM → OK
 System stabilized after response
 Monitoring confirms resolution
-
----
 
 ## 🧠 SOC Analysis
 
@@ -118,23 +116,17 @@ Identified abnormal processes
 Terminated malicious activity
 Verified system recovery through monitoring
 
----
-
 ## 📚 Key Takeaways
 CloudWatch provides real-time detection of system anomalies
 Alerts allow rapid SOC response
 Monitoring + response = critical for cloud security
 Even simple metrics (CPU) can reveal threats
 
----
-
 ## 🚀 Future Improvements
 Add memory and network monitoring alerts
 Integrate AWS GuardDuty for threat intelligence
 Forward logs to a SIEM (Splunk / ELK)
 Automate response using AWS Lambda
-
----
 
 ## 🏁 Conclusion
 This lab simulates a real-world SOC scenario where abnormal system activity is detected, investigated, and resolved using AWS monitoring tools.
